@@ -106,7 +106,7 @@ class _MatchPageState extends State<MatchPage> {
                                       decoration: InputDecoration(
                                           contentPadding:
                                               EdgeInsets.only(left: 15),
-                                          hintText: "Nói gì đó hay ho đi",
+                                          hintText: "Say something cool",
                                           hintStyle: TextStyle(
                                             color: grey,
                                           ),

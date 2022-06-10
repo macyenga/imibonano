@@ -228,7 +228,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
               margin: EdgeInsets.only(left: 30, right: 30),
               padding: EdgeInsets.only(left: 30, right: 30),
               child: Text(
-                "Khi bấm Tạo Tài Khoản hoặc Đăng Nhập, bạn đồng ý Điều Khoản của chúng tôi, Tìm hiểu về cách chúng tôi xử lý dữ liệu của bạn trong Chính sách Quyền Riêng Tư và Chính sách Cookie của chúng tôi",
+                "By clicking Create Account or Sign In, you agree to our Terms, Learn about how we handle your data in our Privacy Policy and Cookie Policy",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white,
@@ -255,7 +255,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
                 height: 50,
                 child: Center(
                   child: Text(
-                    "ĐĂNG NHẬP VỚI Google",
+                    "LOG IN WITH GOOGLE",
                     style: TextStyle(
                       color: white,
                       fontWeight: FontWeight.w500,
@@ -283,7 +283,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
                 height: 50,
                 child: Center(
                   child: Text(
-                    "ĐĂNG NHẬP VỚI FACEBOOK",
+                    "LOG IN WITH FACEBOOK",
                     style: TextStyle(
                       color: white,
                       fontWeight: FontWeight.w500,
@@ -314,7 +314,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
                 height: 50,
                 child: Center(
                   child: Text(
-                    "ĐĂNG NHẬP VỚI SỐ ĐIỆN THOẠI",
+                    "LOG IN WITH PHONE NUMBER",
                     style: TextStyle(
                       color: white,
                       fontWeight: FontWeight.w500,
@@ -333,7 +333,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
                 child: InkWell(
                   onTap: () {},
                   child: Text(
-                    "Sự cố khi Đăng Nhập?",
+                    "Trouble Signing In?",
                     style: TextStyle(
                       color: white,
                       fontSize: 16,

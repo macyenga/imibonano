@@ -975,7 +975,7 @@ class _EditState extends State<Edit> {
             child: Row(
               children: [
                 Text(
-                  'KHUYNH HƯỚNG TÍNH DỤC',
+                  'Trend TÍNH DỤC',
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
@@ -1005,7 +1005,7 @@ class _EditState extends State<Edit> {
                                   builder: (context) => EditSex()));
                         },
                         child: Text(
-                          'Thêm Khuynh Hướng Tính Dục',
+                          'Thêm Trend Tính Dục',
                           style: TextStyle(
                             color: Colors.grey,
                           ),

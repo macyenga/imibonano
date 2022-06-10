@@ -61,7 +61,7 @@ class _SettingState extends State<Setting> {
                 Navigator.of(context).pop();
               },
               child: Text(
-                'Xong',
+                'Accomplished',
                 style: TextStyle(
                     color: Colors.pinkAccent,
                     fontWeight: FontWeight.bold,
@@ -430,7 +430,7 @@ class _SettingState extends State<Setting> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Hiển thị cho tôi",
+                              "Show me",
                               style: TextStyle(
                                 fontWeight: FontWeight.normal,
                                 fontSize: 18,
@@ -440,7 +440,7 @@ class _SettingState extends State<Setting> {
                             Row(
                               children: [
                                 Text(
-                                  "Nữ",
+                                  "Female",
                                   style: TextStyle(
                                     color: Colors.grey,
                                     fontSize: 15,
@@ -1114,7 +1114,7 @@ class _SettingState extends State<Setting> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'TOP TUYỂN CHỌN',
+                  'Top Selection',
                   style: TextStyle(
                     color: Color.fromARGB(255, 102, 101, 101),
                   ),
@@ -1152,7 +1152,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Quản lý Top Tuyển chọn",
+                                "Quản lý Top Selection",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),

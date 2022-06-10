@@ -54,7 +54,7 @@ class _ChoosePageState extends State<ChoosePage> {
           padding: const EdgeInsets.only(left: 10, top: 50),
           width: 350,
           child: Text(
-            "Hiển thị cho tôi",
+            "Show me",
             style: TextStyle(
               color: black,
               fontSize: 40,
@@ -86,7 +86,7 @@ class _ChoosePageState extends State<ChoosePage> {
             height: 50,
             child: Center(
               child: Text(
-                "Nữ",
+                "Female",
                 style: TextStyle(
                     fontWeight: FontWeight.w500,
                     color: colorText == 'first'
@@ -151,7 +151,7 @@ class _ChoosePageState extends State<ChoosePage> {
             height: 50,
             child: Center(
               child: Text(
-                "Giới tính khác",
+                "Other genders",
                 style: TextStyle(
                   fontWeight: FontWeight.w500,
                   color: colorText == 'thirt'
@@ -170,11 +170,11 @@ class _ChoosePageState extends State<ChoosePage> {
           onTap: (() async {
             // if (selected != null) {
             if (selected == "first") {
-              result = "Nữ";
+              result = "Female";
             } else if (selected == "second") {
               result = "Nam";
             } else {
-              result = "Giới Tính Khác";
+              result = "Other genders";
             }
             Navigator.push(
               context,
@@ -198,7 +198,7 @@ class _ChoosePageState extends State<ChoosePage> {
             height: 50,
             child: Center(
               child: Text(
-                "TIẾP TỤC",
+                "CONTINUE",
                 style: TextStyle(
                   fontWeight: FontWeight.w500,
                 ),

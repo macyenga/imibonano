@@ -115,7 +115,7 @@ class _EmailRegisterPageState extends State<EmailRegisterPage> {
                 height: 50,
                 child: Center(
                   child: Text(
-                    "TIẾP TỤC",
+                    "CONTINUE",
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                     ),

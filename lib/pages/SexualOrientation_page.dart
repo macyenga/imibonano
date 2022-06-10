@@ -50,7 +50,7 @@ class _SexualOrientationState extends State<SexualOrientation> {
           // color: Colors.blue,
           margin: EdgeInsets.only(left: 30, top: 70, right: 30),
           child: Text(
-            "Khuynh hướng tính dục của tôi là",
+            "My sexual orientation is",
             style: TextStyle(
                 color: black, fontSize: 40, fontWeight: FontWeight.bold),
           ),
@@ -62,7 +62,7 @@ class _SexualOrientationState extends State<SexualOrientation> {
           // color: Colors.blue,
           margin: EdgeInsets.only(right: 230),
           child: Text(
-            "Chọn tối đa 3",
+            "Select up to 3",
             style: TextStyle(
                 color: grey, fontWeight: FontWeight.w400, fontSize: 17),
           ),
@@ -80,7 +80,7 @@ class _SexualOrientationState extends State<SexualOrientation> {
                   activeColor: Color.fromARGB(255, 255, 25, 75),
                   controlAffinity: ListTileControlAffinity.leading,
                   title: Text(
-                    'Dị Tính',
+                    'Heterosexual',
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                       color: black,
@@ -104,7 +104,7 @@ class _SexualOrientationState extends State<SexualOrientation> {
                   activeColor: Color.fromARGB(255, 255, 25, 75),
                   controlAffinity: ListTileControlAffinity.leading,
                   title: Text(
-                    'Đồng tính Nam',
+                    'Gay Male',
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                       color: black,
@@ -128,7 +128,7 @@ class _SexualOrientationState extends State<SexualOrientation> {
                   activeColor: Color.fromARGB(255, 255, 25, 75),
                   controlAffinity: ListTileControlAffinity.leading,
                   title: Text(
-                    'Đồng tính Nữ',
+                    'Lesbians',
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                       color: black,
@@ -152,7 +152,7 @@ class _SexualOrientationState extends State<SexualOrientation> {
                   activeColor: Color.fromARGB(255, 255, 25, 75),
                   controlAffinity: ListTileControlAffinity.leading,
                   title: Text(
-                    'Song Tính',
+                    'Bisexual',
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                       color: black,
@@ -176,7 +176,7 @@ class _SexualOrientationState extends State<SexualOrientation> {
                   activeColor: Color.fromARGB(255, 255, 25, 75),
                   controlAffinity: ListTileControlAffinity.leading,
                   title: Text(
-                    'Vô Tính',
+                    'Asexual',
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                       color: black,
@@ -203,7 +203,7 @@ class _SexualOrientationState extends State<SexualOrientation> {
                   activeColor: Color.fromARGB(255, 255, 25, 75),
                   controlAffinity: ListTileControlAffinity.leading,
                   title: Text(
-                    'Hiển thị khuynh huớng của tôi trên hồ sơ',
+                    'Show my bias on profile',
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                       color: black,
@@ -253,19 +253,19 @@ class _SexualOrientationState extends State<SexualOrientation> {
             if (strings.length < 3) {
               if (strings.length == 0) {
                 if (_checkboxListTile) {
-                  strings.add("Vô Tính");
+                  strings.add("Asexual");
                 }
                 if (_checkboxListTile1) {
-                  strings.add("Đồng tính Nam");
+                  strings.add("Gay Male");
                 }
                 if (_checkboxListTile2) {
-                  strings.add("Đồng tính Nữ");
+                  strings.add("Lesbians");
                 }
                 if (_checkboxListTile3) {
-                  strings.add("Song Tính");
+                  strings.add("Bisexual");
                 }
                 if (_checkboxListTile4) {
-                  strings.add("Vô Tính");
+                  strings.add("Asexual");
                 }
               }
             } else {
@@ -302,7 +302,7 @@ class _SexualOrientationState extends State<SexualOrientation> {
             height: 50,
             child: Center(
               child: Text(
-                "TIẾP TỤC",
+                "CONTINUE",
                 style: TextStyle(
                   fontWeight: FontWeight.w500,
                 ),

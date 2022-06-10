@@ -43,7 +43,7 @@ class _LikePageState extends State<LikePage> {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     Text(
-                      "99+ Lượt Thích",
+                      "99+ Likes",
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
@@ -51,7 +51,7 @@ class _LikePageState extends State<LikePage> {
                       ),
                     ),
                     Text(
-                      "Top Tuyển chọn",
+                      "Top Selection",
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,

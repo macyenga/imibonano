@@ -37,7 +37,7 @@ class _LoginPageState extends State<LoginPage> {
               margin: EdgeInsets.only(left: 30, right: 30),
               padding: EdgeInsets.only(left: 30, right: 30),
               child: Text(
-                "Khi bấm Tạo Tài Khoản hoặc Đăng Nhập, bạn đồng ý Điều Khoản của chúng tôi, Tìm hiểu về cách chúng tôi xử lý dữ liệu của bạn trong Chính sách Quyền Riêng Tư và Chính sách Cookie của chúng tôi",
+                "By clicking Create Account or Sign In, you agree to our Terms, Learn about how we handle your data in our Privacy Policy and Cookie Policy",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white,
@@ -65,7 +65,7 @@ class _LoginPageState extends State<LoginPage> {
                 height: 50,
                 child: Center(
                   child: Text(
-                    "TẠO TÀI KHOẢN",
+                    "CREATE ACCOUNT",
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                     ),
@@ -95,7 +95,7 @@ class _LoginPageState extends State<LoginPage> {
                 height: 50,
                 child: Center(
                   child: Text(
-                    "ĐĂNG NHẬP",
+                    "LOG IN",
                     style: TextStyle(
                       color: white,
                       fontWeight: FontWeight.w500,
@@ -114,7 +114,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: InkWell(
                   onTap: () {},
                   child: Text(
-                    "Sự cố khi Đăng Nhập?",
+                    "Problems LOG IN?",
                     style: TextStyle(
                       color: white,
                       fontSize: 16,

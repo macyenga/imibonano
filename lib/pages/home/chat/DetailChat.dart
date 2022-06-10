@@ -116,7 +116,8 @@ class _DetailChatState extends State<DetailChat> {
                                   color: Colors.black,
                                 ),
                                 children: <TextSpan>[
-                                  TextSpan(text: 'Bạn đã tương hợp với '),
+                                  TextSpan(
+                                      text: 'You are already compatible with'),
                                   TextSpan(
                                       text: snapshotUser.data!.docs[indexUser]
                                           .get('name'),
@@ -160,14 +161,14 @@ class _DetailChatState extends State<DetailChat> {
                                   color: Colors.black,
                                 ),
                                 children: <TextSpan>[
-                                  TextSpan(text: 'Biết khi nào '),
+                                  TextSpan(text: 'Know when '),
                                   TextSpan(
                                     text: snapshotUser.data!.docs[indexUser]
                                         .get('name'),
                                     style: const TextStyle(
                                         fontWeight: FontWeight.bold),
                                   ),
-                                  TextSpan(text: ' đã xem tin nhắn của bạn'),
+                                  TextSpan(text: ' saw your message'),
                                 ],
                               ),
                             ),
@@ -190,7 +191,7 @@ class _DetailChatState extends State<DetailChat> {
                                   Icon(
                                     Icons.done_all,
                                   ),
-                                  Text("Bật thông báo đã xem"),
+                                  Text("Turn on notifications watched"),
                                 ],
                               ),
                             ),
@@ -221,7 +222,7 @@ class _DetailChatState extends State<DetailChat> {
                 controller: _value,
                 decoration: InputDecoration(
                   contentPadding: EdgeInsets.only(left: 15),
-                  hintText: "Nhập thông điệp",
+                  hintText: "Enter message",
                   hintStyle: TextStyle(
                     color: grey,
                   ),

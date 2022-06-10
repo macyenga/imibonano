@@ -37,7 +37,7 @@ class _SchoolPageState extends State<SchoolPage> {
           // color: Colors.blue,
           margin: EdgeInsets.only(right: 50, left: 50, top: 50),
           child: Text(
-            "Trường của tôi là",
+            "My school is",
             style: TextStyle(
               color: black,
               fontWeight: FontWeight.w500,
@@ -58,11 +58,11 @@ class _SchoolPageState extends State<SchoolPage> {
                 autofocus: false,
                 decoration: const InputDecoration(
                   border: UnderlineInputBorder(),
-                  labelText: 'Tên trường',
+                  labelText: 'School s name',
                 ),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return "Tên không được để trống";
+                    return "Name cannot be blank";
                   } else {
                     return null;
                   }
@@ -79,7 +79,7 @@ class _SchoolPageState extends State<SchoolPage> {
           // color: Colors.blue,
           margin: EdgeInsets.only(left: 45, right: 40),
           child: Text(
-            "Đây là cách nội dung hiển thị trên Tinder",
+            "Here's how it looks on Tinder",
             style: TextStyle(
               color: grey,
               fontSize: 15,
@@ -110,7 +110,7 @@ class _SchoolPageState extends State<SchoolPage> {
             height: 50,
             child: Center(
               child: Text(
-                "BỎ QUA",
+                "SKIP",
                 style: TextStyle(
                   fontWeight: FontWeight.w500,
                 ),

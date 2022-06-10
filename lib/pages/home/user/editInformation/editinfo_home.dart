@@ -42,7 +42,7 @@ class EditInfoHome extends StatelessWidget {
                   Navigator.of(context).pop();
                 },
                 child: Text(
-                  'Xong',
+                  'Accomplished',
                   style: TextStyle(
                       color: Colors.pinkAccent,
                       fontWeight: FontWeight.bold,

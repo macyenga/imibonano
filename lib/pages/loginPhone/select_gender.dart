@@ -57,7 +57,7 @@ class _GenderUserPageState extends State<GenderUserPage> {
               padding: const EdgeInsets.only(left: 25, top: 50),
               width: 350,
               child: Text(
-                "Tôi là",
+                "I am",
                 style: TextStyle(
                   color: black,
                   fontSize: 50,
@@ -89,7 +89,7 @@ class _GenderUserPageState extends State<GenderUserPage> {
                 height: 50,
                 child: Center(
                   child: Text(
-                    "Nữ",
+                    "Female",
                     style: TextStyle(
                         fontWeight: FontWeight.w500,
                         color: colorText == 'first'
@@ -154,7 +154,7 @@ class _GenderUserPageState extends State<GenderUserPage> {
                 height: 50,
                 child: Center(
                   child: Text(
-                    "Giới tính khác",
+                    "Other genders",
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                       color: colorText == 'thirt'
@@ -177,7 +177,7 @@ class _GenderUserPageState extends State<GenderUserPage> {
                 activeColor: Color.fromARGB(255, 255, 25, 75),
                 controlAffinity: ListTileControlAffinity.leading,
                 title: Text(
-                  'Hiển thị giới tính của tôi trên hồ sơ',
+                  'Show my gender on profile',
                   style: TextStyle(
                     fontWeight: FontWeight.w500,
                     color: black,
@@ -199,11 +199,11 @@ class _GenderUserPageState extends State<GenderUserPage> {
               borderRadius: BorderRadius.circular(60),
               onTap: (() async {
                 if (selected == "first") {
-                  result = "Nữ";
+                  result = "Female";
                 } else if (selected == "second") {
                   result = "Nam";
                 } else {
-                  result = "Giới Tính Khác";
+                  result = "Other genders";
                 }
 
                 if (selected != null) {
@@ -232,7 +232,7 @@ class _GenderUserPageState extends State<GenderUserPage> {
                 height: 50,
                 child: Center(
                   child: Text(
-                    "TIẾP TỤC",
+                    "CONTINUE",
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                     ),

@@ -74,7 +74,7 @@ class _EditFavotireState extends State<EditFavotire> {
                   Navigator.of(context).pop();
                 },
                 child: Text(
-                  'Xong',
+                  'Accomplished',
                   style: TextStyle(
                       color: Colors.pinkAccent,
                       fontWeight: FontWeight.bold,
@@ -149,7 +149,7 @@ class _EditFavotireState extends State<EditFavotire> {
                             ),
                             borderRadius: BorderRadius.circular(50)),
                         child: Text(
-                          "Chăm sóc bản thân",
+                          "Take care of yourself",
                           style: TextStyle(
                               color: selected_2
                                   ? Color.fromARGB(255, 255, 25, 75)
@@ -217,7 +217,7 @@ class _EditFavotireState extends State<EditFavotire> {
                             ),
                             borderRadius: BorderRadius.circular(50)),
                         child: Text(
-                          "Viết",
+                          "Write",
                           style: TextStyle(
                             color: selected_4
                                 ? Color.fromARGB(255, 255, 25, 75)
@@ -248,7 +248,7 @@ class _EditFavotireState extends State<EditFavotire> {
                             ),
                             borderRadius: BorderRadius.circular(50)),
                         child: Text(
-                          "Thiền",
+                          "Meditation",
                           style: TextStyle(
                               color: selected_5
                                   ? Color.fromARGB(255, 255, 25, 75)
@@ -346,7 +346,7 @@ class _EditFavotireState extends State<EditFavotire> {
                             ),
                             borderRadius: BorderRadius.circular(50)),
                         child: Text(
-                          "Bóng rổ",
+                          "Basketball",
                           style: TextStyle(
                               color: selected_8
                                   ? Color.fromARGB(255, 255, 25, 75)
@@ -383,7 +383,7 @@ class _EditFavotireState extends State<EditFavotire> {
                             ),
                             borderRadius: BorderRadius.circular(50)),
                         child: Text(
-                          "Cuộc thi về thơ",
+                          "Poetry Contest",
                           style: TextStyle(
                               color: selected_9
                                   ? Color.fromARGB(255, 255, 25, 75)
@@ -421,7 +421,7 @@ class _EditFavotireState extends State<EditFavotire> {
                             ),
                             borderRadius: BorderRadius.circular(50)),
                         child: Text(
-                          "Tập luyện tại nhà",
+                          "Workout at home",
                           style: TextStyle(
                               color: selected_10
                                   ? Color.fromARGB(255, 255, 25, 75)
@@ -489,7 +489,7 @@ class _EditFavotireState extends State<EditFavotire> {
                             ),
                             borderRadius: BorderRadius.circular(50)),
                         child: Text(
-                          "Trang điểm",
+                          "Make up",
                           style: TextStyle(
                               color: selected_12
                                   ? Color.fromARGB(255, 255, 25, 75)
@@ -519,7 +519,7 @@ class _EditFavotireState extends State<EditFavotire> {
                             ),
                             borderRadius: BorderRadius.circular(50)),
                         child: Text(
-                          "Bể cá",
+                          "Aquarium",
                           style: TextStyle(
                             color: selected_13
                                 ? Color.fromARGB(255, 255, 25, 75)
@@ -558,7 +558,7 @@ class _EditFavotireState extends State<EditFavotire> {
                             ),
                             borderRadius: BorderRadius.circular(50)),
                         child: Text(
-                          "Giày Sneaker",
+                          "Sneakers",
                           style: TextStyle(
                               color: selected_14
                                   ? Color.fromARGB(255, 255, 25, 75)
@@ -626,7 +626,7 @@ class _EditFavotireState extends State<EditFavotire> {
                             ),
                             borderRadius: BorderRadius.circular(50)),
                         child: Text(
-                          "Suối nước nóng",
+                          "Hot waterfall",
                           style: TextStyle(
                               color: selected_16
                                   ? Color.fromARGB(255, 255, 25, 75)
@@ -656,7 +656,7 @@ class _EditFavotireState extends State<EditFavotire> {
                             ),
                             borderRadius: BorderRadius.circular(50)),
                         child: Text(
-                          "Võ thuật",
+                          "Martial Arts",
                           style: TextStyle(
                               color: selected_17
                                   ? Color.fromARGB(255, 255, 25, 75)
@@ -724,7 +724,7 @@ class _EditFavotireState extends State<EditFavotire> {
                             ),
                             borderRadius: BorderRadius.circular(50)),
                         child: Text(
-                          "Đi dạo",
+                          "Take a walk",
                           style: TextStyle(
                               color: selected_19
                                   ? Color.fromARGB(255, 255, 25, 75)
@@ -777,16 +777,16 @@ class _EditFavotireState extends State<EditFavotire> {
                         strings.add("90S Kid");
                       }
                       if (selected_2 == true) {
-                        strings.add("Chăm sóc bản thân");
+                        strings.add("Take care of yourself");
                       }
                       if (selected_3 == true) {
                         strings.add("Hot Yoga");
                       }
                       if (selected_4 == true) {
-                        strings.add("Viết");
+                        strings.add("Write");
                       }
                       if (selected_5 == true) {
-                        strings.add("Thiền");
+                        strings.add("Meditation");
                       }
                       if (selected_6 == true) {
                         strings.add("Sushi");
@@ -795,40 +795,40 @@ class _EditFavotireState extends State<EditFavotire> {
                         strings.add("Hockey");
                       }
                       if (selected_8 == true) {
-                        strings.add("Bóng rổ");
+                        strings.add("Basketball");
                       }
                       if (selected_9 == true) {
-                        strings.add("Cuộc thi về thơ");
+                        strings.add("Poetry Contest");
                       }
                       if (selected_10 == true) {
-                        strings.add("Tập luyện tại nhà");
+                        strings.add("Workout at home");
                       }
                       if (selected_11 == true) {
                         strings.add("Manga");
                       }
                       if (selected_12 == true) {
-                        strings.add("Trang điểm");
+                        strings.add("Make up");
                       }
                       if (selected_13 == true) {
-                        strings.add("Bể cá");
+                        strings.add("Aquarium");
                       }
                       if (selected_14 == true) {
-                        strings.add("Giày Sneaker");
+                        strings.add("Sneakers");
                       }
                       if (selected_15 == true) {
                         strings.add("Instagram");
                       }
                       if (selected_16 == true) {
-                        strings.add("Suối nước nóng");
+                        strings.add("Hot waterfall");
                       }
                       if (selected_17 == true) {
-                        strings.add("Võ thuật");
+                        strings.add("Martial Arts");
                       }
                       if (selected_18 == true) {
                         strings.add("Marvel");
                       }
                       if (selected_19 == true) {
-                        strings.add("Đi dạo");
+                        strings.add("Take a walk");
                       }
                       if (selected_20 == true) {
                         strings.add("Chạy");
@@ -837,11 +837,11 @@ class _EditFavotireState extends State<EditFavotire> {
                     // print(strings);
                     // if (selected != null) {
                     // if (selected == "first") {
-                    //   result = "Nữ";
+                    //   result = "Female";
                     // } else if (selected == "second") {
                     //   result = "Nam";
                     // } else {
-                    //   result = "Giới Tính Khác";
+                    //   result = "Other genders";
                     // }
                     Navigator.push(
                       context,

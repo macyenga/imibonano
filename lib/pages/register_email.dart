@@ -35,7 +35,7 @@ class _EmailRegisterPageState extends State<EmailRegisterPage> {
           padding: const EdgeInsets.only(left: 25, top: 30),
           width: 350,
           child: Text(
-            "Email của bạn là gì ",
+            "What's your email",
             style: TextStyle(
               color: black,
               fontSize: 30,
@@ -47,7 +47,7 @@ class _EmailRegisterPageState extends State<EmailRegisterPage> {
           margin: EdgeInsets.only(left: 10, right: 20, top: 40),
           padding: EdgeInsets.only(left: 30, right: 30),
           child: Text(
-            "Hãy xác minh email của bạn để không bị mất quyền truy cập vào tài khoản",
+            "Please verify your email so you don't lose access to your account",
             textAlign: TextAlign.left,
             style: TextStyle(
               color: Colors.black,
@@ -64,7 +64,7 @@ class _EmailRegisterPageState extends State<EmailRegisterPage> {
                 TextFormField(
                   controller: _email,
                   decoration: InputDecoration(
-                    hintText: "Nhập Email",
+                    hintText: "Enter Email",
                   ),
                   validator: (value) {
                     if (value != null) {
@@ -113,7 +113,7 @@ class _EmailRegisterPageState extends State<EmailRegisterPage> {
             height: 50,
             child: Center(
               child: Text(
-                "TIẾP TỤC",
+                "CONTINUE",
                 style: TextStyle(
                   fontWeight: FontWeight.w500,
                 ),

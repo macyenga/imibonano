@@ -39,7 +39,7 @@ class _SexChoicesState extends State<SexChoices> {
             Padding(
               padding: const EdgeInsets.only(right: 105),
               child: Text(
-                "Hiển thị cho tôi",
+                "Show me",
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
@@ -54,7 +54,7 @@ class _SexChoicesState extends State<SexChoices> {
           Container(
             margin: EdgeInsets.only(left: 20, top: 20),
             child: Text(
-              "HIỂN THỊ CHO TÔI",
+              "Show me",
               style: TextStyle(
                 color: grey,
               ),

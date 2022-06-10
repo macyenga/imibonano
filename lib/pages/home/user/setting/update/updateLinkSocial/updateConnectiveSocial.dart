@@ -128,10 +128,10 @@ class _ConnectSocialAcountState extends State<ConnectSocialAcount> {
         children: [
           CupertinoFormSection(
             header: Text(
-                'ĐĂNG NHẬP NHANH HƠN BẰNG CÁCH LIÊN KẾT VỚI TÀI KHOẢN CỦA BẠN'),
+                'LOG IN NHANH HƠN BẰNG CÁCH LIÊN KẾT VỚI TÀI KHOẢN CỦA BẠN'),
             children: [
               CupertinoFormRow(
-                prefix: Text('Đăng nhập với Google'),
+                prefix: Text('LOG IN với Google'),
                 child: CupertinoSwitch(
                   activeColor: Colors.pink,
                   value: _checkBoxGoogle,
@@ -149,7 +149,7 @@ class _ConnectSocialAcountState extends State<ConnectSocialAcount> {
                 ),
               ),
               CupertinoFormRow(
-                prefix: Text('Đăng nhập với Facebook'),
+                prefix: Text('LOG IN với Facebook'),
                 child: CupertinoSwitch(
                   activeColor: Colors.pink,
                   value: _checkBoxFaceBook,

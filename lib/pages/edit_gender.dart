@@ -21,7 +21,7 @@ class _EditGenderState extends State<EditGender> {
         appBar: AppBar(
             backgroundColor: Colors.white,
             title: Text(
-              'Tôi là',
+              'I am',
               style: TextStyle(color: Colors.black),
             ),
             centerTitle: true,
@@ -31,7 +31,7 @@ class _EditGenderState extends State<EditGender> {
                     Navigator.of(context).pop();
                   },
                   child: Text(
-                    'Xong',
+                    'Accomplished',
                     style: TextStyle(
                         color: Colors.pinkAccent,
                         fontWeight: FontWeight.bold,
@@ -74,7 +74,7 @@ class _EditGenderState extends State<EditGender> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Nữ',
+                        'Female',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -95,7 +95,7 @@ class _EditGenderState extends State<EditGender> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Thêm',
+                        'More',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -131,7 +131,7 @@ class _EditGenderState extends State<EditGender> {
                   children: [
                     CupertinoFormRow(
                       prefix: Text(
-                        'Hiển thị giới tính trên hồ sơ của tôi',
+                        'Show gender on my profile',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -161,11 +161,11 @@ class _EditGenderState extends State<EditGender> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Tìm hiểu thêm',
+                'looking for more information',
                 style: TextStyle(color: Colors.red),
               ),
               Text(
-                ' về tính năng giới tính trên Tinder',
+                ' about the gender feature on Tinder',
                 style: TextStyle(color: Colors.grey),
               ),
             ],

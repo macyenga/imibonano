@@ -37,7 +37,7 @@ class _ManageSelectState extends State<ManageSelect> {
             Padding(
               padding: const EdgeInsets.only(right: 70),
               child: Text(
-                "Quản lý Top Tuyển chọn",
+                "Quản lý Top Selection",
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
@@ -56,7 +56,7 @@ class _ManageSelectState extends State<ManageSelect> {
               height: 55,
               child: CupertinoFormRow(
                 prefix: Text(
-                  'Hiển thị tôi trong phần Top Tuyển chọn',
+                  'Hiển thị tôi trong phần Top Selection',
                   style: TextStyle(
                     color: Colors.black,
                   ),
@@ -80,7 +80,7 @@ class _ManageSelectState extends State<ManageSelect> {
           Padding(
             padding: const EdgeInsets.only(left: 20, top: 14),
             child: Text(
-              "Bật tính năng này sẽ cho pháp người dùng khác ở gần\nbạn nhìn thấy bạn là một đối tượng Top Tuyển chọn nổi\nbật.",
+              "Bật tính năng này sẽ cho pháp người dùng khác ở gần\nbạn nhìn thấy bạn là một đối tượng Top Selection nổi\nbật.",
               style: TextStyle(color: Colors.grey),
             ),
           )

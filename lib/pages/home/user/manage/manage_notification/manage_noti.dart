@@ -80,7 +80,7 @@ class _ManageNotiState extends State<ManageNoti> {
           Padding(
             padding: const EdgeInsets.only(left: 20, top: 14),
             child: Text(
-              "Tắt mục này sẽ ngăn không để bất kỳ tương hợp mới nào\nbật thông báo đã xem trong cuộc trò chuyện của các\nbạn từ thời điểm này trở đi.",
+              "Tắt mục này sẽ ngăn không để bất kỳ New compatibility nào\nbật thông báo đã xem trong cuộc trò chuyện của các\nbạn từ thời điểm này trở đi.",
               style: TextStyle(color: Colors.grey),
             ),
           )

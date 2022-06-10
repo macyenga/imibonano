@@ -100,7 +100,7 @@ class _ChatPageState extends State<ChatPage> {
                   Padding(
                     padding: const EdgeInsets.only(left: 15),
                     child: Text(
-                      "Tương hợp mới",
+                      "New compatibility",
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.w500,

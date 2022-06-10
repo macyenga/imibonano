@@ -12,16 +12,16 @@ const List favorite = [
     'name': '90s Kid',
   },
   {
-    'name': 'Chăm sóc bản thân',
+    'name': 'Take care of yourself',
   },
   {
     'name': 'Hot Yoga',
   },
   {
-    'name': 'Viết',
+    'name': 'Write',
   },
   {
-    'name': 'Thiền',
+    'name': 'Meditation',
   },
   {
     'name': 'Sushi',
@@ -30,42 +30,42 @@ const List favorite = [
     'name': 'Hockey',
   },
   {
-    'name': 'Bóng rổ',
+    'name': 'Basketball',
   },
   {
-    'name': 'Cuộc thi về thơ',
+    'name': 'Poetry Contest',
   },
   {
-    'name': 'Tập luyện tại nhà',
+    'name': 'Workout at home',
   },
   {
     'name': 'Manga',
   },
   {
-    'name': 'Trang Điểm',
+    'name': 'Make up',
   },
   {
-    'name': 'Bể Cá',
+    'name': 'Aquarium',
   },
   {
-    'name': 'Giày Sneaker',
+    'name': 'Sneakers',
   },
   {
     'name': 'Instagram',
   },
   {
-    'name': 'Suối nước nóng',
+    'name': 'Hot waterfall',
   },
   {
-    'name': 'Võ thuật',
+    'name': 'Martial Arts',
   },
   {
     'name': 'Marvel',
   },
   {
-    'name': 'Đi dạo',
+    'name': 'Take a walk',
   },
   {
-    'name': 'Chạy',
+    'name': 'Run',
   },
 ];

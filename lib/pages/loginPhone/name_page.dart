@@ -51,7 +51,7 @@ class _NamePageState extends State<NamePage> {
               // color: Colors.blue,
               margin: EdgeInsets.only(right: 100, left: 70, top: 50),
               child: Text(
-                "Tên tôi là",
+                "Tên I am",
                 style: TextStyle(
                   color: black,
                   fontWeight: FontWeight.w500,
@@ -79,7 +79,7 @@ class _NamePageState extends State<NamePage> {
                     ),
                     validator: (value) {
                       if (value == null || value.isEmpty) {
-                        return "Tên không được để trống";
+                        return "Name cannot be blank";
                       } else {
                         return null;
                       }
@@ -96,7 +96,7 @@ class _NamePageState extends State<NamePage> {
               // color: Colors.blue,
               margin: EdgeInsets.only(left: 60, right: 65),
               child: Text(
-                "Đây là cách tên bạn hiển thị trên Tinder và bạn sẽ không thay đổi về sau",
+                "This is how your name appears on Tinder and you won't change it laters",
                 style: TextStyle(
                   color: grey,
                   fontSize: 17,
@@ -140,7 +140,7 @@ class _NamePageState extends State<NamePage> {
                 height: 50,
                 child: Center(
                   child: Text(
-                    "TIẾP TỤC",
+                    "CONTINUE",
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                     ),

@@ -32,7 +32,7 @@ class _DiscoveryScreenState extends State<DiscoveryScreen> {
                   height: 5,
                 ),
                 Text(
-                  'Cảm hứng bây giờ của mình',
+                  'My current inspiration',
                   style: TextStyle(color: Colors.grey),
                 )
               ],
@@ -64,19 +64,19 @@ class _DiscoveryScreenState extends State<DiscoveryScreen> {
                               padding: const EdgeInsets.only(bottom: 10),
                               child: ListTile(
                                 title: Text(
-                                  'Hiển thị hình dán này hồ sơ của tôi',
+                                  'Show this sticker my profile',
                                   style: TextStyle(
                                       color: Colors.white, fontSize: 20),
                                 ),
                                 subtitle: Text(
-                                  'Trung tâm Vắc xin',
+                                  'Vaccine Center',
                                   style: TextStyle(color: Colors.grey),
                                 ),
                               ),
                             )),
                             Expanded(
                               child: ElevatedButton(
-                                  child: Text("Thêm hình dán".toUpperCase(),
+                                  child: Text("More stickers".toUpperCase(),
                                       style: TextStyle(
                                           fontSize: 14, color: Colors.black)),
                                   style: ButtonStyle(
@@ -108,14 +108,14 @@ class _DiscoveryScreenState extends State<DiscoveryScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Dành cho bạn',
+                  'For you',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                 ),
                 SizedBox(
                   height: 5,
                 ),
                 Text(
-                  'Được đề xuất dựa trên hồ sơ của bạn',
+                  'Recommended based on your profile',
                   style: TextStyle(color: Colors.grey),
                 )
               ],

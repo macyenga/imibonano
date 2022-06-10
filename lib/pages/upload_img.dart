@@ -29,7 +29,7 @@ class _UploadImage_PageState extends State<UploadImage_Page> {
         ),
         title: Center(
           child: Text(
-            'Thêm Ảnh',
+            'More Photos',
             style: TextStyle(color: black, fontSize: 24),
           ),
         ),
@@ -167,7 +167,7 @@ class _UploadImage_PageState extends State<UploadImage_Page> {
         height: 60,
         child: Center(
           child: Text(
-            "Tiếp tục",
+            "Continue",
             style: TextStyle(
               fontWeight: FontWeight.w500,
             ),

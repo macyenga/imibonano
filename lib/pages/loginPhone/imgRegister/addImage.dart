@@ -36,7 +36,7 @@ class _AddImageState extends State<AddImage> {
             color: black,
           ),
           title: Text(
-            'Thêm ảnh',
+            'More photos',
             style: TextStyle(color: Colors.black),
           ),
           actions: [
@@ -48,7 +48,7 @@ class _AddImageState extends State<AddImage> {
                   uploadFile().whenComplete(() => Navigator.of(context).pop());
                 },
                 child: Text(
-                  'Tải lên',
+                  'Upload',
                   style: TextStyle(color: Colors.black, fontSize: 15),
                 ))
           ],

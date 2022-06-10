@@ -21,7 +21,7 @@ class _EditSexState extends State<EditSex> {
         appBar: AppBar(
             backgroundColor: Colors.white,
             title: Text(
-              'Khuynh hướng',
+              'Trend',
               style: TextStyle(color: Colors.black),
             ),
             centerTitle: true,
@@ -31,7 +31,7 @@ class _EditSexState extends State<EditSex> {
                     Navigator.of(context).pop();
                   },
                   child: Text(
-                    'Xong',
+                    'Accomplished',
                     style: TextStyle(
                         color: Colors.pinkAccent,
                         fontWeight: FontWeight.bold,
@@ -42,7 +42,7 @@ class _EditSexState extends State<EditSex> {
           SizedBox(
             height: 10,
           ),
-          Text('CHỌN TỐI ĐA 3'),
+          Text('SELECT UP TO 3'),
           SizedBox(
             height: 10,
           ),
@@ -57,7 +57,7 @@ class _EditSexState extends State<EditSex> {
                   children: [
                     CupertinoFormRow(
                       prefix: Text(
-                        'Dị tính',
+                        'Heterosexual',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -78,7 +78,7 @@ class _EditSexState extends State<EditSex> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Đồng tính Nam',
+                        'Gay Male',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -99,7 +99,7 @@ class _EditSexState extends State<EditSex> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Đồng tính Nữ',
+                        'Gay Female',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -120,7 +120,7 @@ class _EditSexState extends State<EditSex> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Song tính',
+                        'Bisexual',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -141,7 +141,7 @@ class _EditSexState extends State<EditSex> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Vô tính',
+                        'Asexual',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -162,7 +162,7 @@ class _EditSexState extends State<EditSex> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Á tính',
+                        'Asia',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -183,7 +183,7 @@ class _EditSexState extends State<EditSex> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Toàn tính',
+                        'Totality',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -204,7 +204,7 @@ class _EditSexState extends State<EditSex> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Phi dị tính',
+                        'Phi Heterosexual',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -225,7 +225,7 @@ class _EditSexState extends State<EditSex> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Chưa xác định rõ khuynh hướng',
+                        'Trend is not clear yet',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -261,7 +261,7 @@ class _EditSexState extends State<EditSex> {
                   children: [
                     CupertinoFormRow(
                       prefix: Text(
-                        'Hiển thị khuynh hướng của tôi trên hồ sơ ',
+                        'Show my Trends on profile',
                         style: TextStyle(
                           color: Colors.black,
                         ),

@@ -17,7 +17,7 @@ class _EditCityState extends State<EditCity> {
       appBar: AppBar(
           backgroundColor: Colors.white,
           title: Text(
-            'Sửa Thành phố',
+            'Edit City',
             style: TextStyle(color: Colors.black),
           ),
           centerTitle: true,
@@ -27,7 +27,7 @@ class _EditCityState extends State<EditCity> {
                   Navigator.of(context).pop();
                 },
                 child: Text(
-                  'Hủy',
+                  'Cancel',
                   style: TextStyle(
                       color: Colors.pinkAccent,
                       fontWeight: FontWeight.bold,
@@ -58,7 +58,7 @@ class _EditCityState extends State<EditCity> {
                   width: 20,
                 ),
                 Text(
-                  'Gần Địa Điểm hiện tại',
+                  'Near Current Location',
                   style: TextStyle(color: Colors.purple),
                 )
               ],
@@ -88,7 +88,7 @@ class _EditCityState extends State<EditCity> {
                   width: 20,
                 ),
                 Text(
-                  'Tôi không muốn hiển thị thành phố của mình',
+                  'I do not want to show my city',
                   style: TextStyle(color: Colors.grey),
                 )
               ],

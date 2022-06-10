@@ -86,7 +86,7 @@ class DiscoveryCategory extends StatelessWidget {
                             )),
                             Expanded(
                               child: Text(
-                                'Tìm hiểu ngay',
+                                'Find out now',
                                 style: TextStyle(
                                   color: Colors.grey,
                                   fontSize: 10,

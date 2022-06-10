@@ -60,7 +60,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 padding: const EdgeInsets.only(left: 25, top: 10),
                 width: 350,
                 child: Text(
-                  "Số điện thoại của tôi là",
+                  "My telephone number is",
                   style: TextStyle(
                     color: black,
                     fontSize: 30,
@@ -93,7 +93,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 margin: EdgeInsets.only(left: 10, right: 20, top: 40),
                 padding: EdgeInsets.only(left: 30, right: 30),
                 child: Text(
-                  "Chúng tôi sẽ gửi tin nhán cùng mã xác minh. Bạn có thể phải trả phí tin nhắn và dữ liệu. Tìm hiểu chuyện gì xảy ra khi số điện thoại của bạn thay đổi",
+                  "We will send a text message with a verification code. Message and data charges may apply. Find out what happens when your phone number changes",
                   textAlign: TextAlign.left,
                   style: TextStyle(
                     color: Colors.black,
@@ -108,7 +108,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 child: Column(
                   children: [
                     Text(
-                      "Nhập mã OTP",
+                      "Enter OTP",
                       style: TextStyle(
                           color: black,
                           fontSize: 15,
@@ -139,7 +139,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         onPressed: () {
                           verifyOTP();
                           Fluttertoast.showToast(
-                              msg: "Đã gửi lại mã OTP",
+                              msg: "OTP code sent back",
                               toastLength: Toast.LENGTH_SHORT,
                               gravity: ToastGravity.CENTER,
                               timeInSecForIosWeb: 1,
@@ -181,7 +181,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   height: 50,
                   child: Center(
                     child: Text(
-                      otpVisibility ? "TIẾP TỤC" : "GET OTP",
+                      otpVisibility ? "CONTINUE" : "GET OTP",
                       style: TextStyle(
                         fontWeight: FontWeight.w500,
                       ),

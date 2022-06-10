@@ -52,7 +52,7 @@ class _VaccineCenterState extends State<VaccineCenter> {
           Padding(
             padding: const EdgeInsets.only(left: 20, top: 14),
             child: Text(
-              "Hiển thị biểu tượng Trung tâm Vaccine trong các tương hợp mới của tôi.",
+              "Hiển thị biểu tượng Trung tâm Vaccine trong các New compatibility của tôi.",
               style: TextStyle(color: Colors.grey),
             ),
           ),

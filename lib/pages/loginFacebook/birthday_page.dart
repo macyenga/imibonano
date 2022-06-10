@@ -51,7 +51,7 @@ class _BirthdayPageState extends State<BirthdayPage> {
           // color: Colors.blue,
           margin: EdgeInsets.only(right: 50, left: 70, top: 50),
           child: Text(
-            "Sinh nhật của tôi là",
+            "My birthday is",
             style: TextStyle(
               color: black,
               fontWeight: FontWeight.w500,
@@ -94,7 +94,7 @@ class _BirthdayPageState extends State<BirthdayPage> {
           // color: Colors.blue,
           margin: EdgeInsets.only(left: 60, right: 65),
           child: Text(
-            "Đây là cách tên bạn hiển thị trên Tinder và bạn sẽ không thay đổi về sau",
+            "This is how your name appears on Tinder and you won't change it later",
             style: TextStyle(
               color: grey,
               fontSize: 17,
@@ -134,7 +134,7 @@ class _BirthdayPageState extends State<BirthdayPage> {
             height: 50,
             child: Center(
               child: Text(
-                "TIẾP TỤC",
+                "CONTINUE",
                 style: TextStyle(
                   fontWeight: FontWeight.w500,
                 ),

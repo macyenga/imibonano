@@ -18,7 +18,7 @@ class Female extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 21),
               child: Text(
-                "Nữ",
+                "Female",
                 style: TextStyle(fontSize: 18),
               ),
             ),
