@@ -98,7 +98,7 @@ class _SettingState extends State<Setting> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'THIẾT LẬP TÀI KHOẢN',
+                  'ACCOUNT SETTINGS',
                   style: TextStyle(
                     color: grey,
                     fontSize: 15,
@@ -135,7 +135,7 @@ class _SettingState extends State<Setting> {
                         children: [
                           Container(
                             child: Text(
-                              "Số điện thoại",
+                              "Phone number",
                               style: TextStyle(
                                 fontWeight: FontWeight.normal,
                                 fontSize: 18,
@@ -180,7 +180,7 @@ class _SettingState extends State<Setting> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "Tài khoản đã kết nối",
+                            "Account connected",
                             style: TextStyle(
                               fontWeight: FontWeight.normal,
                               fontSize: 18,
@@ -249,7 +249,7 @@ class _SettingState extends State<Setting> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Số điện thoại và Email đã xác minh giúp bảo mật tài khoản của bạn',
+                  'Verified phone number and Email keep your account secure',
                   style: TextStyle(
                       color: Color.fromARGB(255, 134, 127, 127), fontSize: 15),
                 ),
@@ -268,7 +268,7 @@ class _SettingState extends State<Setting> {
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('KHÁM PHÁ'),
+                Text('DISCOVER'),
                 SizedBox(
                   height: 10,
                 ),
@@ -299,7 +299,7 @@ class _SettingState extends State<Setting> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Địa điểm",
+                              "Location",
                               style: TextStyle(
                                 fontWeight: FontWeight.normal,
                                 fontSize: 18,
@@ -311,7 +311,7 @@ class _SettingState extends State<Setting> {
                               child: Column(
                                 children: [
                                   Text(
-                                    "Địa điểm hiện tại của tôi",
+                                    "My current location",
                                     style: TextStyle(
                                       fontWeight: FontWeight.normal,
                                       fontSize: 18,
@@ -319,7 +319,7 @@ class _SettingState extends State<Setting> {
                                     ),
                                   ),
                                   Text(
-                                    "Hồ Chí Minh , Thành Phố Hồ Chí Minh",
+                                    "Ho Chi Minh City, Ho Chi Minh City",
                                     style: TextStyle(
                                       fontSize: 16,
                                       color: Color.fromARGB(255, 134, 127, 127),
@@ -354,7 +354,7 @@ class _SettingState extends State<Setting> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Khoảng cách Ưu tiên",
+                              "Priority Distance",
                               style: TextStyle(
                                   fontWeight: FontWeight.normal,
                                   fontSize: 18,
@@ -385,7 +385,7 @@ class _SettingState extends State<Setting> {
                       ),
                       CupertinoFormRow(
                         prefix: Text(
-                          'Chỉ hiển thị người trong phạm vi này',
+                          'Show only people in this range',
                           style: TextStyle(
                             color: Color.fromARGB(255, 134, 127, 127),
                           ),
@@ -1903,7 +1903,7 @@ class _SettingState extends State<Setting> {
                         height: 40,
                         child: Container(
                           child: Text(
-                            "Chia sẻ Tinder",
+                            "Share Tinder",
                             style: TextStyle(
                               fontSize: 18,
                             ),

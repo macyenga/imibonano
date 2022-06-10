@@ -37,7 +37,7 @@ class _WelcomePageState extends State<WelcomePage> {
               margin: EdgeInsets.only(left: 15, right: 15),
               padding: EdgeInsets.only(left: 13, right: 13),
               child: Text(
-                "Chào mừng bạn đến với Tinder",
+                "Welcome to Tinder",
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
@@ -50,7 +50,7 @@ class _WelcomePageState extends State<WelcomePage> {
             ),
             Container(
               child: Text(
-                "Vui lòng tuân thủ các Quy Tắt Chung này",
+                "Please abide by these General Rules",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 16,
@@ -81,7 +81,7 @@ class _WelcomePageState extends State<WelcomePage> {
                         width: 10,
                       ),
                       Text(
-                        "Hãy là chính bạn",
+                        "Be yourself",
                         style: TextStyle(
                             color: black,
                             fontWeight: FontWeight.w800,
@@ -97,7 +97,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   // color: Colors.yellow,
                   margin: EdgeInsets.only(left: 35, right: 25),
                   child: Text(
-                    "Đảm bảo ảnh, độ tuổi và tiểu sử của bạn đều là thật",
+                    "Make sure your photo, age and bio are all real",
                     style: TextStyle(
                         color: grey, fontSize: 17, fontWeight: FontWeight.bold),
                   ),
@@ -127,7 +127,7 @@ class _WelcomePageState extends State<WelcomePage> {
                         width: 10,
                       ),
                       Text(
-                        "Đảm bảo an toàn",
+                        "Guaranteed safety",
                         style: TextStyle(
                             color: black,
                             fontWeight: FontWeight.w800,
@@ -143,7 +143,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   // color: Colors.yellow,
                   margin: EdgeInsets.only(left: 35, right: 25),
                   child: Text(
-                    "Đừng vội vàng chia sẻ thông tin cá nhân. Hẹn hò an toàn",
+                    "Don't be in a hurry to share personal information. Safe Dating",
                     style: TextStyle(
                         color: grey, fontSize: 17, fontWeight: FontWeight.bold),
                   ),
@@ -173,7 +173,7 @@ class _WelcomePageState extends State<WelcomePage> {
                         width: 10,
                       ),
                       Text(
-                        "Cư xử chuẩn mực",
+                        "Standard behavior",
                         style: TextStyle(
                             color: black,
                             fontWeight: FontWeight.w800,
@@ -189,7 +189,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   // color: Colors.yellow,
                   margin: EdgeInsets.only(left: 35, right: 52),
                   child: Text(
-                    "Tôn trọng người khác và đối xử với họ như cách bạn muốn mọi người thể hiện với bạn",
+                    "Respect others and treat them the way you would like people to treat you",
                     style: TextStyle(
                         color: grey, fontSize: 17, fontWeight: FontWeight.bold),
                   ),
@@ -219,7 +219,7 @@ class _WelcomePageState extends State<WelcomePage> {
                         width: 10,
                       ),
                       Text(
-                        "Hãy luôn chủ động",
+                        "Be proactive",
                         style: TextStyle(
                             color: black,
                             fontWeight: FontWeight.w800,
@@ -235,7 +235,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   // color: Colors.yellow,
                   margin: EdgeInsets.only(left: 0, right: 120),
                   child: Text(
-                    "Luôn báo cảo hành vi xấu",
+                    "Always report bad behavior",
                     style: TextStyle(
                         color: grey, fontSize: 17, fontWeight: FontWeight.bold),
                   ),

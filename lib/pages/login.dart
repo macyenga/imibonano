@@ -16,7 +16,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 255, 25, 75),
+      backgroundColor: Color.fromARGB(255, 255, 255, 255),
       body: getBody(),
     );
   }
@@ -27,11 +27,13 @@ class _LoginPageState extends State<LoginPage> {
         Column(
           children: [
             Container(
-              margin: EdgeInsets.only(top: 350, left: 80, right: 80),
-              child: Image.asset("assets/images/logoWhite.png"),
+              margin: EdgeInsets.only(top: 200, left: 80, right: 80),
+              child: Image.asset("assets/images/logotinder.png"),
+              height: 200,
+              width: 200,
             ),
             SizedBox(
-              height: 50,
+              height: 30,
             ),
             Container(
               margin: EdgeInsets.only(left: 30, right: 30),
@@ -40,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
                 "By clicking Create Account or Sign In, you agree to our Terms, Learn about how we handle your data in our Privacy Policy and Cookie Policy",
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Color.fromARGB(255, 0, 0, 0),
                   fontSize: 14,
                 ),
               ),
@@ -59,7 +61,7 @@ class _LoginPageState extends State<LoginPage> {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(60),
-                  color: white,
+                  color: black,
                 ),
                 width: 320,
                 height: 50,
@@ -67,6 +69,7 @@ class _LoginPageState extends State<LoginPage> {
                   child: Text(
                     "CREATE ACCOUNT",
                     style: TextStyle(
+                      color: white,
                       fontWeight: FontWeight.w500,
                     ),
                   ),
@@ -88,7 +91,7 @@ class _LoginPageState extends State<LoginPage> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(60),
                   border: Border.all(
-                    color: white,
+                    color: black,
                   ),
                 ),
                 width: 320,
@@ -97,7 +100,7 @@ class _LoginPageState extends State<LoginPage> {
                   child: Text(
                     "LOG IN",
                     style: TextStyle(
-                      color: white,
+                      color: black,
                       fontWeight: FontWeight.w500,
                     ),
                   ),
@@ -114,7 +117,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: InkWell(
                   onTap: () {},
                   child: Text(
-                    "Problems LOG IN?",
+                    "Problems with log?",
                     style: TextStyle(
                       color: white,
                       fontSize: 16,

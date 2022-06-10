@@ -199,7 +199,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: getAppbar(),
-      backgroundColor: Color.fromARGB(255, 255, 25, 75),
+      backgroundColor: Color.fromARGB(255, 255, 255, 255),
       body: getBody(),
     );
   }
@@ -207,7 +207,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
   AppBar getAppbar() {
     return AppBar(
       elevation: 0,
-      backgroundColor: Color.fromARGB(255, 255, 25, 75),
+      backgroundColor: Color.fromARGB(255, 255, 255, 255),
       iconTheme: IconThemeData(color: black),
     );
   }
@@ -218,8 +218,10 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
         Column(
           children: [
             Container(
-              margin: EdgeInsets.only(top: 200, left: 80, right: 80),
-              child: Image.asset("assets/images/logoWhite.png"),
+              margin: EdgeInsets.only(top: 100, left: 80, right: 80),
+              child: Image.asset("assets/images/logotinder.png"),
+              height: 200,
+              width: 200,
             ),
             SizedBox(
               height: 50,
@@ -231,7 +233,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
                 "By clicking Create Account or Sign In, you agree to our Terms, Learn about how we handle your data in our Privacy Policy and Cookie Policy",
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.black,
                   fontSize: 14,
                 ),
               ),
@@ -248,7 +250,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(60),
                   border: Border.all(
-                    color: white,
+                    color: black,
                   ),
                 ),
                 width: 320,
@@ -257,7 +259,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
                   child: Text(
                     "LOG IN WITH GOOGLE",
                     style: TextStyle(
-                      color: white,
+                      color: black,
                       fontWeight: FontWeight.w500,
                     ),
                   ),
@@ -276,7 +278,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(60),
                   border: Border.all(
-                    color: white,
+                    color: black,
                   ),
                 ),
                 width: 320,
@@ -285,7 +287,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
                   child: Text(
                     "LOG IN WITH FACEBOOK",
                     style: TextStyle(
-                      color: white,
+                      color: black,
                       fontWeight: FontWeight.w500,
                     ),
                   ),
@@ -307,7 +309,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(60),
                   border: Border.all(
-                    color: white,
+                    color: black,
                   ),
                 ),
                 width: 320,
@@ -316,7 +318,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
                   child: Text(
                     "LOG IN WITH PHONE NUMBER",
                     style: TextStyle(
-                      color: white,
+                      color: black,
                       fontWeight: FontWeight.w500,
                     ),
                   ),

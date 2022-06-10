@@ -47,7 +47,7 @@ class BasicInfo extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(bottom: 4),
                       child: Text(
-                        "Thông tin cơ bản",
+                        "Basic information",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -56,7 +56,7 @@ class BasicInfo extends StatelessWidget {
                     ),
                     Expanded(
                       child: Text(
-                        "Những điều bạn cần biết để an\ntoàn hơn trên Tinder và khi gặp\ngỡ ngoài đời - tất cả ở cùng...",
+                        "What you need to know to be safer on Tinder and when you meet up in real life - all at the same time...",
                         style: TextStyle(fontSize: 16),
                       ),
                     ),

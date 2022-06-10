@@ -81,7 +81,7 @@ class _SexChoicesState extends State<SexChoices> {
               Padding(
                 padding: const EdgeInsets.only(right: 154),
                 child: Text(
-                  "Tinder chào đón tất cả các bạn.",
+                  "Tinder welcomes you all.",
                   style: TextStyle(
                     color: grey,
                   ),
@@ -91,7 +91,7 @@ class _SexChoicesState extends State<SexChoices> {
                 height: 24,
               ),
               Text(
-                "Giờ đây mục cài đặt khám phá hiển thị những người\ndùng có bao gồm nhiều thông tin hơn về [xác định giới\ntính] (https://blog.gotinder.com/genders) và [khuynh\nhướng tình dục] (https://blog.gotinder.com/orientations)\ncủa họ. Khi người dùng thêm thông tin về bản thân, họ\ncó thể chọn hiển thị trong những mục tìm kiếm nào phản\nánh tốt nhất về nhân thân của họ",
+                "The discovery settings now show who\ users include more information about [genders] (https://blog.gotinder.com/genders) and [sexual orientation] ( https://blog.gotinder.com/orientations)\ntheir. As users add more information about themselves, they \ncan choose to show up in the search items that best reflect their identity",
                 style: TextStyle(
                   color: grey,
                 ),

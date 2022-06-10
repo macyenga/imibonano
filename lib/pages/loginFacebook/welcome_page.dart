@@ -41,7 +41,7 @@ class _WelcomePageState extends State<WelcomePage> {
           margin: EdgeInsets.only(left: 15, right: 15),
           padding: EdgeInsets.only(left: 13, right: 13),
           child: Text(
-            "Chào mừng bạn đến với Tinder",
+            "Welcome to Tinder",
             style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.bold,
@@ -54,7 +54,7 @@ class _WelcomePageState extends State<WelcomePage> {
         ),
         Container(
           child: Text(
-            "Vui lòng tuân thủ các Quy Tắt Chung này",
+            "Please abide by these General Rules",
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 16,
@@ -193,7 +193,7 @@ class _WelcomePageState extends State<WelcomePage> {
               // color: Colors.yellow,
               margin: EdgeInsets.only(left: 35, right: 52),
               child: Text(
-                "Tôn trọng người khác và đối xử với họ như cách bạn muốn mọi người thể hiện với bạn",
+                "Respect others and treat them the way you would like people to treat you",
                 style: TextStyle(
                     color: grey, fontSize: 17, fontWeight: FontWeight.bold),
               ),
@@ -223,7 +223,7 @@ class _WelcomePageState extends State<WelcomePage> {
                     width: 10,
                   ),
                   Text(
-                    "Hãy luôn chủ động",
+                    "Be proactive",
                     style: TextStyle(
                         color: black,
                         fontWeight: FontWeight.w800,

@@ -56,7 +56,7 @@ class _ActiveState extends State<Active> {
               height: 55,
               child: CupertinoFormRow(
                 prefix: Text(
-                  'Hiển thị trạng thái Đang trực tuyến',
+                  'Allow Online status on your profile\ when you are on Tinder',
                   style: TextStyle(
                     color: Colors.black,
                   ),
@@ -80,7 +80,7 @@ class _ActiveState extends State<Active> {
           Padding(
             padding: const EdgeInsets.only(left: 20, top: 14),
             child: Text(
-              "Cho phép hiển thị trạng thái Đang trực tuyến trên hồ sơ\nkhi bạn đang dùng Tinder.",
+              "Allow Online status on your profile\nwhen you're on Tinder.",
               style: TextStyle(color: Colors.grey),
             ),
           )
