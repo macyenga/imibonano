@@ -144,7 +144,7 @@ class _DetailUserState extends State<DetailUser> {
                         Container(
                           margin: EdgeInsets.only(top: 7, left: 5),
                           child: Text(
-                            "Sống tại Hồ Chí Minh",
+                            "Live in Ho Chi Minh",
                             style: TextStyle(
                               fontSize: 17,
                               color: Color.fromARGB(255, 116, 114, 114),
@@ -185,7 +185,7 @@ class _DetailUserState extends State<DetailUser> {
                         Container(
                           margin: EdgeInsets.only(top: 10, left: 25),
                           child: Text(
-                            "Giới thiệu bản thân",
+                            "Introduce yourself",
                             style: TextStyle(
                               fontSize: 17,
                               color: Colors.black,
@@ -197,7 +197,7 @@ class _DetailUserState extends State<DetailUser> {
                     Container(
                       margin: EdgeInsets.only(top: 10, left: 25),
                       child: Text(
-                        "IG: Zhan.ghaiyue and my name's meaning is Moon on the Ocean",
+                        "IG: supernover1 and my name's meaning is Moon on the Ocean",
                         style: TextStyle(
                           fontSize: 17,
                           color: Color.fromARGB(255, 151, 149, 149),
@@ -212,7 +212,7 @@ class _DetailUserState extends State<DetailUser> {
                         Container(
                           margin: EdgeInsets.only(top: 10, left: 25),
                           child: Text(
-                            "Sở thích của tôi",
+                            "My preference",
                             style: TextStyle(
                               fontSize: 17,
                               color: Colors.black,
@@ -336,7 +336,7 @@ class _DetailUserState extends State<DetailUser> {
                         Container(
                           margin: EdgeInsets.only(top: 10, left: 25),
                           child: Text(
-                            "Nhạc hiệu của tôi",
+                            "My soundtrack",
                             style: TextStyle(
                               fontSize: 17,
                               color: Colors.black,
@@ -355,7 +355,7 @@ class _DetailUserState extends State<DetailUser> {
                                 Container(
                                   margin: EdgeInsets.only(top: 10, left: 25),
                                   child: Text(
-                                    "Em của ngày hôm qua",
+                                    "Yesterday's baby",
                                     style: TextStyle(
                                       fontSize: 17,
                                     ),
@@ -388,7 +388,7 @@ class _DetailUserState extends State<DetailUser> {
                                         children: [
                                           Container(
                                             child: Text(
-                                              "Sơn Tùng - MTP",
+                                              "Son Tung - MTP",
                                               style: TextStyle(
                                                 fontSize: 15,
                                               ),
@@ -439,7 +439,7 @@ class _DetailUserState extends State<DetailUser> {
                       children: [
                         Container(
                           child: Text(
-                            "CHIA SẺ HỒ SƠ CỦA " +
+                            "SHARE THE PROFILE OF" +
                                 snapshot.data!.docs[value].get('name'),
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
@@ -449,7 +449,7 @@ class _DetailUserState extends State<DetailUser> {
                           ),
                         ),
                         Text(
-                          "ĐỂ XEM BẠN BÈ NGHĨ SAO",
+                          "TO SEE WHAT YOUR FRIENDS THINK",
                           style: TextStyle(
                             fontSize: 12,
                           ),
@@ -462,7 +462,7 @@ class _DetailUserState extends State<DetailUser> {
                     Column(
                       children: [
                         Text(
-                          "TRÌNH BÁO " + snapshot.data!.docs[value].get('name'),
+                          "REPORT" + snapshot.data!.docs[value].get('name'),
                         )
                       ],
                     )

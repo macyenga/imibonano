@@ -246,7 +246,7 @@ class _ChangePhoneState extends State<ChangePhone> {
       });
 
       Fluttertoast.showToast(
-          msg: "Welcome to Tinder",
+          msg: "Welcome to imibonano",
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.CENTER,
           timeInSecForIosWeb: 1,

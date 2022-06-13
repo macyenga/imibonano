@@ -36,7 +36,7 @@ class Conf_tools extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        "Cách xác minh",
+                        "How to verify",
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
@@ -45,7 +45,7 @@ class Conf_tools extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(top: 8),
                         child: Text(
-                            "Cách tốt nhất để biết một người không phải là\n'ảo'"),
+                            "The best way to know a person is not\n'virtual'"),
                       ),
                     ],
                   ),

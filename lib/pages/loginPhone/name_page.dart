@@ -96,7 +96,7 @@ class _NamePageState extends State<NamePage> {
               // color: Colors.blue,
               margin: EdgeInsets.only(left: 60, right: 65),
               child: Text(
-                "This is how your name appears on Tinder and you won't change it laters",
+                "This is how your name appears on imibonano and you won't change it laters",
                 style: TextStyle(
                   color: grey,
                   fontSize: 17,

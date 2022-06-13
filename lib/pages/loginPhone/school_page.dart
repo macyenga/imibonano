@@ -82,7 +82,7 @@ class _SchoolPageState extends State<SchoolPage> {
               // color: Colors.blue,
               margin: EdgeInsets.only(left: 45, right: 40),
               child: Text(
-                "Here's how it looks on Tinder",
+                "Here's how it looks on imibonano",
                 style: TextStyle(
                   color: grey,
                   fontSize: 15,

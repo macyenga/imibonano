@@ -18,7 +18,7 @@ class EveryBody extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 21),
               child: Text(
-                "Mọi người",
+                "Everyone",
                 style: TextStyle(fontSize: 18),
               ),
             ),

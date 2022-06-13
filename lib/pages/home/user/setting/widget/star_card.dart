@@ -48,7 +48,7 @@ class StarCard extends StatelessWidget {
                   ),
                   Center(
                     child: Text(
-                      'Nhận lượt Super Like',
+                      'Get Super Likes',
                       style: TextStyle(
                         color: Colors.blueAccent,
                         fontWeight: FontWeight.bold,

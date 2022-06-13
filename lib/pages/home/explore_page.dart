@@ -23,8 +23,8 @@ class ExplorePage extends StatefulWidget {
 class _ExplorePageState extends State<ExplorePage> {
   // List itemsTemp = [];
   // int itemLength = 0;
-  late List a;
-  late String sexChooseAuth;
+  List? a;
+  String? sexChooseAuth;
   List<String> tmp = [];
 
   @override
@@ -51,12 +51,12 @@ class _ExplorePageState extends State<ExplorePage> {
             a = snapshotListUid.data!.docs[i].get('ListUidMatch');
             sexChooseAuth = snapshotListUid.data!.docs[i].get('sexChoose');
           }
-          if (a.length > 0) {
-            for (var y = 0; y < a.length; y++) {
-              if (tmp.contains(a[y])) {
+          if (a!.length > 0) {
+            for (var y = 0; y < a!.length; y++) {
+              if (tmp.contains(a![y])) {
                 print("exit");
               } else {
-                tmp.add(a[y].toString());
+                tmp.add(a![y].toString());
               }
             }
             if (tmp.contains(user?.uid)) {
@@ -425,7 +425,7 @@ class _ExplorePageState extends State<ExplorePage> {
                                   ),
                                 );
                               } else {
-                                print("không match");
+                                print("no match");
                               }
                             } else {
                               if ((orientation.toString() ==
@@ -852,7 +852,7 @@ class _ExplorePageState extends State<ExplorePage> {
                                           uidCheck: snapshot.data!.docs[index]
                                               .get('uid'))));
                                 } else {
-                                  print("không match");
+                                  print("no match");
                                 }
                               } else {
                                 if ((orientation.toString() ==
@@ -866,7 +866,7 @@ class _ExplorePageState extends State<ExplorePage> {
                                     ]),
                                   });
                                 } else {
-                                  print("không match");
+                                  print("no match");
                                 }
                               }
 

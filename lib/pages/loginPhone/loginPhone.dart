@@ -268,7 +268,7 @@ class _LoginPhoneState extends State<LoginPhone> {
       //   'SexOrientation': 'https://www.w3schools.com/w3images/avatar2.png',
       // });
       Fluttertoast.showToast(
-          msg: "Welcome to Tinder",
+          msg: "Welcome to imibonano",
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.CENTER,
           timeInSecForIosWeb: 1,

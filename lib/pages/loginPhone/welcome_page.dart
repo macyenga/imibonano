@@ -37,7 +37,7 @@ class _WelcomePageState extends State<WelcomePage> {
               margin: EdgeInsets.only(left: 15, right: 15),
               padding: EdgeInsets.only(left: 13, right: 13),
               child: Text(
-                "Welcome to Tinder",
+                "Welcome to imibonano",
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,

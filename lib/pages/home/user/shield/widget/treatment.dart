@@ -45,7 +45,7 @@ class Treatment extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(bottom: 4),
                       child: Text(
-                        "Cách xử lý",
+                        "Treatment",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -54,7 +54,7 @@ class Treatment extends StatelessWidget {
                     ),
                     Expanded(
                       child: Text(
-                        "Nếu bạn thấy chuyện gì đó\nkhông ổn, hãy lên tiếng.",
+                        "If you see something\nnot right, speak up.",
                         style: TextStyle(fontSize: 16),
                       ),
                     ),

@@ -39,7 +39,7 @@ class _GuideScreenState extends State<GuideScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Xin chào Nhân",
+                    "Hello Nhan",
                     style: TextStyle(
                       fontSize: 26,
                       fontWeight: FontWeight.bold,
@@ -49,7 +49,7 @@ class _GuideScreenState extends State<GuideScreen> {
                     height: 10,
                   ),
                   Text(
-                    "Dưới đây là tất cả những gì bạn cần biết \nvề vấn đề an toàn",
+                    "Here's everything you need to know \nabout safety",
                     style: TextStyle(
                       fontSize: 18,
                     ),
@@ -71,7 +71,7 @@ class _GuideScreenState extends State<GuideScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "An toàn",
+                "Safe",
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
@@ -93,7 +93,7 @@ class _GuideScreenState extends State<GuideScreen> {
                 height: 40,
               ),
               Text(
-                "Quấy rối",
+                "Trouble",
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               SizedBox(
@@ -108,7 +108,7 @@ class _GuideScreenState extends State<GuideScreen> {
                 height: 40,
               ),
               Text(
-                "Gặp gỡ ngoài đời",
+                "Meet in real life",
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               SizedBox(
@@ -123,7 +123,7 @@ class _GuideScreenState extends State<GuideScreen> {
                 height: 40,
               ),
               Text(
-                "Báo cáo",
+                "Report",
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               SizedBox(
@@ -142,7 +142,7 @@ class _GuideScreenState extends State<GuideScreen> {
                 height: 40,
               ),
               Text(
-                "Đồng thuận",
+                "Consensus",
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               SizedBox(
@@ -153,7 +153,7 @@ class _GuideScreenState extends State<GuideScreen> {
                 height: 40,
               ),
               Text(
-                "Du lịch",
+                "Travel",
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               SizedBox(

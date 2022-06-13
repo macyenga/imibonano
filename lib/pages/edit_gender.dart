@@ -165,7 +165,7 @@ class _EditGenderState extends State<EditGender> {
                 style: TextStyle(color: Colors.red),
               ),
               Text(
-                ' about the gender feature on Tinder',
+                ' about the gender feature on imibonano',
                 style: TextStyle(color: Colors.grey),
               ),
             ],

@@ -112,7 +112,7 @@ class _UpdateEmailState extends State<UpdateEmail> {
           Container(
             margin: EdgeInsets.only(left: 10, top: 10),
             child: Text(
-              "Email của bạn đã được xác minh",
+              "Your email has been verified",
               style: TextStyle(
                 color: Colors.blue,
                 fontWeight: FontWeight.w600,
@@ -137,7 +137,7 @@ class _UpdateEmailState extends State<UpdateEmail> {
                 height: 50,
                 child: Center(
                   child: Text(
-                    "Gửi email xác minh",
+                    "Send verification email",
                     style: TextStyle(
                       color: Colors.grey,
                       fontSize: 18,

@@ -25,7 +25,7 @@ class _DiscoveryScreenState extends State<DiscoveryScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Chào mừng đến với thẻ Khám phá',
+                  'Welcome to the Discover tab',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                 ),
                 SizedBox(

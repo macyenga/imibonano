@@ -37,7 +37,7 @@ class _ManageTimeState extends State<ManageTime> {
             Padding(
               padding: const EdgeInsets.only(right: 68),
               child: Text(
-                "Quản lý Khung giờ vàng",
+                "Manage Golden Hour",
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
@@ -56,7 +56,7 @@ class _ManageTimeState extends State<ManageTime> {
               height: 55,
               child: CupertinoFormRow(
                 prefix: Text(
-                  'Hiển thị tôi trong Khung giờ vàng',
+                  'Show me in Golden Hour',
                   style: TextStyle(
                     color: Colors.black,
                   ),
@@ -80,7 +80,7 @@ class _ManageTimeState extends State<ManageTime> {
           Padding(
             padding: const EdgeInsets.only(left: 18, top: 14),
             child: Text(
-              "Tắt tính năng này sẽ làm hồ sơ của bạn không được ưu\ntiên trong khung giờ vàng.",
+              "Turning off this feature will make your profile not preferred\n during prime time.",
               style: TextStyle(color: Colors.grey),
             ),
           )

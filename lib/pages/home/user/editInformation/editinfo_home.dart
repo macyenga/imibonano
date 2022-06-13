@@ -17,7 +17,7 @@ class EditInfoHome extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.white,
           title: Text(
-            'Sửa Thông tin',
+            'Edit Info',
             style: TextStyle(color: Colors.black),
           ),
           centerTitle: true,
@@ -25,13 +25,13 @@ class EditInfoHome extends StatelessWidget {
           bottom: TabBar(tabs: [
             Tab(
               child: Text(
-                'Chỉnh sửa',
+                'Edit',
                 style: TextStyle(fontSize: 20, color: Colors.grey),
               ),
             ),
             Tab(
               child: Text(
-                'Xem trước',
+                'Preview',
                 style: TextStyle(fontSize: 20, color: Colors.grey),
               ),
             )

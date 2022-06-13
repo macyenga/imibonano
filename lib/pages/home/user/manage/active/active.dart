@@ -56,7 +56,7 @@ class _ActiveState extends State<Active> {
               height: 55,
               child: CupertinoFormRow(
                 prefix: Text(
-                  'Allow Online status on your profile\ when you are on Tinder',
+                  'Allow Online status on your profile\ when you are on imibonano',
                   style: TextStyle(
                     color: Colors.black,
                   ),
@@ -80,7 +80,7 @@ class _ActiveState extends State<Active> {
           Padding(
             padding: const EdgeInsets.only(left: 20, top: 14),
             child: Text(
-              "Allow Online status on your profile\nwhen you're on Tinder.",
+              "Allow Online status on your profile\nwhen you're on imibonano.",
               style: TextStyle(color: Colors.grey),
             ),
           )

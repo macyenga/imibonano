@@ -37,7 +37,7 @@ class _ManageNotiState extends State<ManageNoti> {
             Padding(
               padding: const EdgeInsets.only(right: 56),
               child: Text(
-                "Quản lý Thông báo đã xem",
+                "Manage Viewed Notifications",
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
@@ -56,7 +56,7 @@ class _ManageNotiState extends State<ManageNoti> {
               height: 55,
               child: CupertinoFormRow(
                 prefix: Text(
-                  'Gửi thông báo đã xem',
+                  'Send viewing notifications',
                   style: TextStyle(
                     color: Colors.black,
                   ),
@@ -80,7 +80,7 @@ class _ManageNotiState extends State<ManageNoti> {
           Padding(
             padding: const EdgeInsets.only(left: 20, top: 14),
             child: Text(
-              "Tắt mục này sẽ ngăn không để bất kỳ New compatibility nào\nbật thông báo đã xem trong cuộc trò chuyện của các\nbạn từ thời điểm này trở đi.",
+              "Disabling this will prevent any New compatibility\n from enabling messages seen in your chats\nfrom this point forward.",
               style: TextStyle(color: Colors.grey),
             ),
           )

@@ -37,7 +37,7 @@ class _ManageReasonState extends State<ManageReason> {
             Padding(
               padding: const EdgeInsets.only(right: 105),
               child: Text(
-                "Quản lý hợp cạ",
+                "Reasonable management",
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
@@ -56,7 +56,7 @@ class _ManageReasonState extends State<ManageReason> {
               height: 55,
               child: CupertinoFormRow(
                 prefix: Text(
-                  'Tham gia tìm hợp cạ',
+                  'Join the match search',
                   style: TextStyle(
                     color: Colors.black,
                   ),
@@ -80,7 +80,7 @@ class _ManageReasonState extends State<ManageReason> {
           Padding(
             padding: const EdgeInsets.only(left: 20, top: 14),
             child: Text(
-              "Tắt mục này sẽ gỡ bỏ tính năng tìm Hợp cạ khỏi hồ sơ\ncủa bạn và bạn sẽ không còn nhìn thấy những hồ sơ Hợp\ncạ.",
+              "Disabling this will remove Match search from your profile\n and you will no longer see Match\n\n profiles.",
               style: TextStyle(color: Colors.grey),
             ),
           )

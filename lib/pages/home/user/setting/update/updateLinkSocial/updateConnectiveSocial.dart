@@ -114,11 +114,11 @@ class _ConnectSocialAcountState extends State<ConnectSocialAcount> {
               ],
             ),
             Text(
-              "Tài khoản đã kết nối",
+              "Account connected",
               style: TextStyle(color: black, fontSize: 20),
             ),
             Text(
-              "Số điện thoại",
+              "Phone number",
               style: TextStyle(color: black.withOpacity(0), fontSize: 10),
             ),
           ],
@@ -127,11 +127,10 @@ class _ConnectSocialAcountState extends State<ConnectSocialAcount> {
       body: ListView(
         children: [
           CupertinoFormSection(
-            header: Text(
-                'LOG IN NHANH HƠN BẰNG CÁCH LIÊN KẾT VỚI TÀI KHOẢN CỦA BẠN'),
+            header: Text('LOG IN FASTER BY LINKING YOUR ACCOUNT'),
             children: [
               CupertinoFormRow(
-                prefix: Text('LOG IN với Google'),
+                prefix: Text('LOG IN with Google'),
                 child: CupertinoSwitch(
                   activeColor: Colors.pink,
                   value: _checkBoxGoogle,
@@ -149,7 +148,7 @@ class _ConnectSocialAcountState extends State<ConnectSocialAcount> {
                 ),
               ),
               CupertinoFormRow(
-                prefix: Text('LOG IN với Facebook'),
+                prefix: Text('LOG IN with Facebook'),
                 child: CupertinoSwitch(
                   activeColor: Colors.pink,
                   value: _checkBoxFaceBook,

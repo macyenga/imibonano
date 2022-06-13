@@ -36,7 +36,7 @@ class Baocao extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        "Cách báo cáo",
+                        "How to report",
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
@@ -45,7 +45,7 @@ class Baocao extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(top: 8),
                         child: Text(
-                            "Báo cáo là một cách an toàn để báo cho\nchúng tôi biết rằng một người có\nhành xử không phù hợp"),
+                            "Reporting is a safe way to let\nus know that a person is\behaving inappropriately"),
                       ),
                     ],
                   ),

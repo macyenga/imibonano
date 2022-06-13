@@ -80,7 +80,7 @@ class _IsActiveState extends State<IsActive> {
           Padding(
             padding: const EdgeInsets.only(left: 20, top: 14),
             child: Text(
-              "Tinder members can see if you've been active on Tinder in the last 24 hours. If you disable this\n, they won't be able to see your recent activity status\n",
+              "imibonano members can see if you've been active on imibonano in the last 24 hours. If you disable this\n, they won't be able to see your recent activity status\n",
               style: TextStyle(color: Colors.grey),
             ),
           )

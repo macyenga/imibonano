@@ -38,7 +38,7 @@ class SettingCard extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'Xem ai Thích bạn & nhiều tính năng khác',
+                  'See who Likes you and more',
                   style: TextStyle(
                     color: Color.fromARGB(255, 112, 111, 111),
                     fontWeight: FontWeight.w500,

@@ -36,7 +36,7 @@ class Disconect extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        "Cách hủy tương hợp",
+                        "How to cancel compatibility",
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
@@ -45,7 +45,7 @@ class Disconect extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(top: 8),
                         child: Text(
-                            "Dù bạn nhận ra rằng mình không quan tâm\nngười đó tới mức vậy hay bạn tương hợp của\nbạn bắt đầu hành xử không phù hợp, bạn lu..."),
+                            "Whether you realize that you don't care\nthat person that much, or your compatible friend\nstarts to behave inappropriately, you..."),
                       ),
                     ],
                   ),

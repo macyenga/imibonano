@@ -45,7 +45,7 @@ class Test_1 extends StatelessWidget {
                   padding: const EdgeInsets.all(10),
                   child: Center(
                     child: Text(
-                      "Kiểm tra",
+                      "Test",
                       style:
                           TextStyle(fontWeight: FontWeight.bold, fontSize: 12),
                     ),
@@ -55,7 +55,7 @@ class Test_1 extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(left: 10),
                 child: Text(
-                  "Trắc nghiệm về An toàn khi\nhẹn hò trên mạng",
+                  "Quiz on Safety when\online dating",
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 ),
               ),

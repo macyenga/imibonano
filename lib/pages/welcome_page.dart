@@ -22,7 +22,8 @@ class _WelcomePageState extends State<WelcomePage> {
   }
 
   Widget getBody() {
-    return Column(
+    return SingleChildScrollView(
+        child: Column(
       children: [
         Container(
           margin: EdgeInsets.only(top: 100, left: 150, right: 150),
@@ -59,186 +60,194 @@ class _WelcomePageState extends State<WelcomePage> {
         SizedBox(
           height: 50,
         ),
-        Column(
-          children: [
-            Container(
-              // color: Colors.blue,
-              margin: EdgeInsets.only(right: 60),
-              padding: EdgeInsets.only(left: 15),
-              width: 300,
-              child: Row(
-                children: [
-                  Container(
-                    child: Icon(
-                      Icons.check,
-                      color: Colors.pink,
-                      size: 30,
+        SingleChildScrollView(
+          child: Column(
+            children: [
+              Container(
+                // color: Colors.blue,
+                margin: EdgeInsets.only(right: 60),
+                padding: EdgeInsets.only(left: 15),
+                width: 300,
+                child: Row(
+                  children: [
+                    Container(
+                      child: Icon(
+                        Icons.check,
+                        color: Colors.pink,
+                        size: 30,
+                      ),
                     ),
-                  ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Text(
-                    "Be yourself",
-                    style: TextStyle(
-                        color: black,
-                        fontWeight: FontWeight.w800,
-                        fontSize: 20),
-                  ),
-                ],
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                      "Be yourself",
+                      style: TextStyle(
+                          color: black,
+                          fontWeight: FontWeight.w800,
+                          fontSize: 20),
+                    ),
+                  ],
+                ),
               ),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Container(
-              // color: Colors.yellow,
-              margin: EdgeInsets.only(left: 35, right: 25),
-              child: Text(
-                "Make sure your photo, age and bio are all real",
-                style: TextStyle(
-                    color: grey, fontSize: 17, fontWeight: FontWeight.bold),
+              SizedBox(
+                height: 10,
               ),
-            )
-          ],
+              Container(
+                // color: Colors.yellow,
+                margin: EdgeInsets.only(left: 35, right: 25),
+                child: Text(
+                  "Make sure your photo, age and bio are all real",
+                  style: TextStyle(
+                      color: grey, fontSize: 17, fontWeight: FontWeight.bold),
+                ),
+              )
+            ],
+          ),
         ),
         SizedBox(
           height: 20,
         ),
-        Column(
-          children: [
-            Container(
-              // color: Colors.blue,
-              margin: EdgeInsets.only(right: 60),
-              padding: EdgeInsets.only(left: 15),
-              width: 300,
-              child: Row(
-                children: [
-                  Container(
-                    child: Icon(
-                      Icons.check,
-                      color: Colors.pink,
-                      size: 30,
+        SingleChildScrollView(
+          child: Column(
+            children: [
+              Container(
+                // color: Colors.blue,
+                margin: EdgeInsets.only(right: 60),
+                padding: EdgeInsets.only(left: 15),
+                width: 300,
+                child: Row(
+                  children: [
+                    Container(
+                      child: Icon(
+                        Icons.check,
+                        color: Colors.pink,
+                        size: 30,
+                      ),
                     ),
-                  ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Text(
-                    "Guaranteed safety",
-                    style: TextStyle(
-                        color: black,
-                        fontWeight: FontWeight.w800,
-                        fontSize: 20),
-                  ),
-                ],
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                      "Guaranteed safety",
+                      style: TextStyle(
+                          color: black,
+                          fontWeight: FontWeight.w800,
+                          fontSize: 20),
+                    ),
+                  ],
+                ),
               ),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Container(
-              // color: Colors.yellow,
-              margin: EdgeInsets.only(left: 35, right: 25),
-              child: Text(
-                "Don't be in a hurry to share personal information. Safe Dating",
-                style: TextStyle(
-                    color: grey, fontSize: 17, fontWeight: FontWeight.bold),
+              SizedBox(
+                height: 10,
               ),
-            )
-          ],
+              Container(
+                // color: Colors.yellow,
+                margin: EdgeInsets.only(left: 35, right: 25),
+                child: Text(
+                  "Don't be in a hurry to share personal information. Safe Dating",
+                  style: TextStyle(
+                      color: grey, fontSize: 17, fontWeight: FontWeight.bold),
+                ),
+              )
+            ],
+          ),
         ),
         SizedBox(
           height: 20,
         ),
-        Column(
-          children: [
-            Container(
-              // color: Colors.blue,
-              margin: EdgeInsets.only(right: 60),
-              padding: EdgeInsets.only(left: 15),
-              width: 300,
-              child: Row(
-                children: [
-                  Container(
-                    child: Icon(
-                      Icons.check,
-                      color: Colors.pink,
-                      size: 30,
+        SingleChildScrollView(
+          child: Column(
+            children: [
+              Container(
+                // color: Colors.blue,
+                margin: EdgeInsets.only(right: 60),
+                padding: EdgeInsets.only(left: 15),
+                width: 300,
+                child: Row(
+                  children: [
+                    Container(
+                      child: Icon(
+                        Icons.check,
+                        color: Colors.pink,
+                        size: 30,
+                      ),
                     ),
-                  ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Text(
-                    "Standard behavior",
-                    style: TextStyle(
-                        color: black,
-                        fontWeight: FontWeight.w800,
-                        fontSize: 20),
-                  ),
-                ],
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                      "Standard behavior",
+                      style: TextStyle(
+                          color: black,
+                          fontWeight: FontWeight.w800,
+                          fontSize: 20),
+                    ),
+                  ],
+                ),
               ),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Container(
-              // color: Colors.yellow,
-              margin: EdgeInsets.only(left: 35, right: 52),
-              child: Text(
-                "Respect others and treat them the way you would like people to treat you",
-                style: TextStyle(
-                    color: grey, fontSize: 17, fontWeight: FontWeight.bold),
+              SizedBox(
+                height: 10,
               ),
-            )
-          ],
+              Container(
+                // color: Colors.yellow,
+                margin: EdgeInsets.only(left: 35, right: 52),
+                child: Text(
+                  "Respect others and treat them the way you would like people to treat you",
+                  style: TextStyle(
+                      color: grey, fontSize: 17, fontWeight: FontWeight.bold),
+                ),
+              )
+            ],
+          ),
         ),
         SizedBox(
           height: 20,
         ),
-        Column(
-          children: [
-            Container(
-              // color: Colors.blue,
-              margin: EdgeInsets.only(right: 60),
-              padding: EdgeInsets.only(left: 15),
-              width: 300,
-              child: Row(
-                children: [
-                  Container(
-                    child: Icon(
-                      Icons.check,
-                      color: Colors.pink,
-                      size: 30,
+        SingleChildScrollView(
+          child: Column(
+            children: [
+              Container(
+                // color: Colors.blue,
+                margin: EdgeInsets.only(right: 60),
+                padding: EdgeInsets.only(left: 15),
+                width: 300,
+                child: Row(
+                  children: [
+                    Container(
+                      child: Icon(
+                        Icons.check,
+                        color: Colors.pink,
+                        size: 30,
+                      ),
                     ),
-                  ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Text(
-                    "Be proactive",
-                    style: TextStyle(
-                        color: black,
-                        fontWeight: FontWeight.w800,
-                        fontSize: 20),
-                  ),
-                ],
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                      "Be proactive",
+                      style: TextStyle(
+                          color: black,
+                          fontWeight: FontWeight.w800,
+                          fontSize: 20),
+                    ),
+                  ],
+                ),
               ),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Container(
-              // color: Colors.yellow,
-              margin: EdgeInsets.only(left: 0, right: 120),
-              child: Text(
-                "Always report bad behavior",
-                style: TextStyle(
-                    color: grey, fontSize: 17, fontWeight: FontWeight.bold),
+              SizedBox(
+                height: 10,
               ),
-            )
-          ],
+              Container(
+                // color: Colors.yellow,
+                margin: EdgeInsets.only(left: 0, right: 120),
+                child: Text(
+                  "Always report bad behavior",
+                  style: TextStyle(
+                      color: grey, fontSize: 17, fontWeight: FontWeight.bold),
+                ),
+              )
+            ],
+          ),
         ),
         SizedBox(
           height: 40,
@@ -269,6 +278,6 @@ class _WelcomePageState extends State<WelcomePage> {
           ),
         ),
       ],
-    );
+    ));
   }
 }

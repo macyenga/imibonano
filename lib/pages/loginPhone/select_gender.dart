@@ -121,7 +121,7 @@ class _GenderUserPageState extends State<GenderUserPage> {
                 height: 50,
                 child: Center(
                   child: Text(
-                    "Nam",
+                    "Male",
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                       color: colorText == 'second'
@@ -201,7 +201,7 @@ class _GenderUserPageState extends State<GenderUserPage> {
                 if (selected == "first") {
                   result = "Female";
                 } else if (selected == "second") {
-                  result = "Nam";
+                  result = "Male";
                 } else {
                   result = "Other genders";
                 }

@@ -48,7 +48,7 @@ class ThunderCard extends StatelessWidget {
                   ),
                   Center(
                     child: Text(
-                      'Kiếm lượt Tăng Tốc',
+                      'Earn Speed Boosts',
                       style: TextStyle(
                         color: Color.fromARGB(255, 223, 40, 240),
                         fontWeight: FontWeight.bold,

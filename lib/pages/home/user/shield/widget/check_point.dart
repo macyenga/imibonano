@@ -45,7 +45,7 @@ class CheckPoint extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(bottom: 10),
                       child: Text(
-                        "Hướng dẫn an toàn khi\ngặp gỡ ngoài đời cho bạn",
+                        "A safety guide to meeting you in real life",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -54,7 +54,7 @@ class CheckPoint extends StatelessWidget {
                     ),
                     Expanded(
                       child: Text(
-                        "Những bí quyết giúp bạn an\ntoàn hơn khi gặp gỡ ngoài đời...",
+                        "Tips to make you safer when meeting in real life...",
                         style: TextStyle(fontSize: 16),
                       ),
                     ),

@@ -30,7 +30,7 @@ class _SafeCenterScreenState extends State<SafeCenterScreen> {
               }),
           centerTitle: true,
           title: Text(
-            'Trung tâm An toàn',
+            'Safety Center',
             style: TextStyle(
                 fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),
           ),
@@ -41,21 +41,21 @@ class _SafeCenterScreenState extends State<SafeCenterScreen> {
               Padding(
                 padding: const EdgeInsets.only(bottom: 10.0),
                 child: Text(
-                  "HƯỚNG DẪN",
+                  "GUIDE",
                   style: TextStyle(color: Colors.black),
                 ),
               ),
               Padding(
                 padding: const EdgeInsets.only(bottom: 10.0),
                 child: Text(
-                  "CÔNG CỤ",
+                  "TOOLS",
                   style: TextStyle(color: Colors.black),
                 ),
               ),
               Padding(
                 padding: const EdgeInsets.only(bottom: 10.0),
                 child: Text(
-                  "TÀI NGUYÊN",
+                  "RESOURCES",
                   style: TextStyle(color: Colors.black),
                 ),
               )

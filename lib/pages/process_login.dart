@@ -207,7 +207,7 @@ class _LoginMutilPageState extends State<LoginMutilPage> {
   AppBar getAppbar() {
     return AppBar(
       elevation: 0,
-      backgroundColor: Color.fromARGB(255, 255, 255, 255),
+      backgroundColor: Color.fromARGB(255, 187, 186, 186),
       iconTheme: IconThemeData(color: black),
     );
   }

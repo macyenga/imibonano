@@ -64,7 +64,7 @@ class _EditFavotireState extends State<EditFavotire> {
       appBar: AppBar(
           backgroundColor: Colors.white,
           title: Text(
-            'Sở thích',
+            'Interests',
             style: TextStyle(color: Colors.black),
           ),
           centerTitle: true,
@@ -86,7 +86,7 @@ class _EditFavotireState extends State<EditFavotire> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
-              'Chọn các sở thích mà bạn muốn chia sẻ.Chọn tối thiểu 3',
+              'Select the interests you want to share.Choose a minimum of 3',
               style: TextStyle(fontSize: 15, color: Colors.grey),
             ),
           ),
@@ -839,7 +839,7 @@ class _EditFavotireState extends State<EditFavotire> {
                     // if (selected == "first") {
                     //   result = "Female";
                     // } else if (selected == "second") {
-                    //   result = "Nam";
+                    //   result = "Male";
                     // } else {
                     //   result = "Other genders";
                     // }

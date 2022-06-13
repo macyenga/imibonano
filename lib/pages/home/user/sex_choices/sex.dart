@@ -81,7 +81,7 @@ class _SexChoicesState extends State<SexChoices> {
               Padding(
                 padding: const EdgeInsets.only(right: 154),
                 child: Text(
-                  "Tinder welcomes you all.",
+                  "imibonano welcomes you all.",
                   style: TextStyle(
                     color: grey,
                   ),

@@ -404,7 +404,7 @@ class _ExplorePageState extends State<ExplorePage> {
                                           uidCheck: snapshot.data!.docs[index]
                                               .get('uid'))));
                                 } else {
-                                  print("không match");
+                                  print("no match");
                                 }
                               } else {
                                 FirebaseFirestore.instance
@@ -774,7 +774,7 @@ class _ExplorePageState extends State<ExplorePage> {
                                         uidCheck: snapshot.data!.docs[index]
                                             .get('uid'))));
                               } else {
-                                print("không match");
+                                print("no match");
                               }
                             } else {
                               FirebaseFirestore.instance

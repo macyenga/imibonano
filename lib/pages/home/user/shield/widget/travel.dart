@@ -45,7 +45,7 @@ class Travel extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(bottom: 10),
                       child: Text(
-                        "Nên và không nên",
+                        "Do's and Don'ts",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -54,7 +54,7 @@ class Travel extends StatelessWidget {
                     ),
                     Expanded(
                       child: Text(
-                        "Để thực hiện một chuyến đi để\nđời, có một số điều bạn cần lưu\ntâm",
+                        "To take a trip to\nlife, there are a few things you need to keep in mind",
                         style: TextStyle(fontSize: 16),
                       ),
                     ),

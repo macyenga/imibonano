@@ -56,7 +56,7 @@ class BasicInfo extends StatelessWidget {
                     ),
                     Expanded(
                       child: Text(
-                        "What you need to know to be safer on Tinder and when you meet up in real life - all at the same time...",
+                        "What you need to know to be safer on imibonano and when you meet up in real life - all at the same time...",
                         style: TextStyle(fontSize: 16),
                       ),
                     ),

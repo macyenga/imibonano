@@ -42,11 +42,11 @@ class _UpdatePhoneState extends State<UpdatePhone> {
               ],
             ),
             Text(
-              "Số điện thoại",
+              "Phone number",
               style: TextStyle(color: black, fontSize: 20),
             ),
             Text(
-              "Số điện thoại",
+              "Phone number",
               style: TextStyle(color: black.withOpacity(0), fontSize: 10),
             ),
           ],
@@ -57,7 +57,7 @@ class _UpdatePhoneState extends State<UpdatePhone> {
           Container(
             margin: EdgeInsets.only(left: 10, top: 20),
             child: Text(
-              "SỐ ĐIỆN THOẠI",
+              "PHONE NUMBER",
               style: TextStyle(
                 color: grey,
                 fontWeight: FontWeight.bold,
@@ -80,7 +80,7 @@ class _UpdatePhoneState extends State<UpdatePhone> {
                   children: [
                     Container(
                       child: Text(
-                        "01236660347",
+                        "07889690247",
                         style: TextStyle(
                           fontWeight: FontWeight.normal,
                           fontSize: 18,
@@ -103,7 +103,7 @@ class _UpdatePhoneState extends State<UpdatePhone> {
           Container(
             margin: EdgeInsets.only(left: 10, top: 10),
             child: Text(
-              "Số điện thoại đã xác minh",
+              "Verified phone number",
               style: TextStyle(
                 color: grey,
                 fontWeight: FontWeight.w600,
@@ -128,7 +128,7 @@ class _UpdatePhoneState extends State<UpdatePhone> {
                 height: 50,
                 child: Center(
                   child: Text(
-                    "Cập nhật số điện thoại của tôi",
+                    "Update my phone number",
                     style: TextStyle(
                       color: Colors.pink,
                       fontSize: 18,

@@ -39,7 +39,7 @@ class SettingCard1 extends StatelessWidget {
                 ),
               ),
               Text(
-                'Trải nghiệm hẹn hò thú vị bậc nhất',
+                'The ultimate dating experience',
                 style: TextStyle(
                   color: Color.fromARGB(255, 112, 111, 111),
                   fontWeight: FontWeight.w500,

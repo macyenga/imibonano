@@ -266,7 +266,7 @@ class _RegisterPageState extends State<RegisterPage> {
         'active': true,
       });
       Fluttertoast.showToast(
-          msg: "Welcome to Tinder",
+          msg: "Welcome to imibonano",
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.CENTER,
           timeInSecForIosWeb: 1,

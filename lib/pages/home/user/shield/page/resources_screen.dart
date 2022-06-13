@@ -16,7 +16,7 @@ class _ResourcesScreenState extends State<ResourcesScreen> {
         child: Column(
           children: [
             Text(
-              "Nguồn tham khảo",
+              "Reference source",
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 18,
@@ -29,7 +29,7 @@ class _ResourcesScreenState extends State<ResourcesScreen> {
                 onPressed: () {},
                 color: Colors.black,
                 child: Text(
-                  "Truy cập trang web",
+                  "Visit website",
                   style: TextStyle(color: Colors.white),
                 ),
               ),

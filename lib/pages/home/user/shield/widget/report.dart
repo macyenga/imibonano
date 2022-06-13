@@ -45,7 +45,7 @@ class Report extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(bottom: 10),
                       child: Text(
-                        "Báo cáo những gì",
+                        "Report what",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -54,7 +54,7 @@ class Report extends StatelessWidget {
                     ),
                     Expanded(
                       child: Text(
-                        "Khi nào bạn nên hoặc không\nnên báo cáo một ai đó",
+                        "When you should or shouldn't report someone",
                         style: TextStyle(fontSize: 16),
                       ),
                     ),

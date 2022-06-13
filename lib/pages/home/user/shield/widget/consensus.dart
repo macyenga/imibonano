@@ -45,7 +45,7 @@ class consensus extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(bottom: 10),
                       child: Text(
-                        "Đồng thuận",
+                        "Consensus",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -54,7 +54,7 @@ class consensus extends StatelessWidget {
                     ),
                     Expanded(
                       child: Text(
-                        "Đây là yếu tố cần thiết đối với\nbất kỳ kết nối nào và chúng tôi\nở đây cung cấp cho bạn m...",
+                        "This is essential for\nany connection and we\'re here to give you m...",
                         style: TextStyle(fontSize: 16),
                       ),
                     ),

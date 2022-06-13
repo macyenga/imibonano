@@ -36,7 +36,7 @@ class Private extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        "Cài đặt quyền riêng tư",
+                        "Privacy settings",
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
@@ -45,7 +45,7 @@ class Private extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(top: 8),
                         child: Text(
-                            "Tùy chỉnh trải nghiệm của bạn qua các tính\nnăng và cài đặt về quyền riêng tư"),
+                            "Customize your experience via privacy settings\features and settings"),
                       ),
                     ],
                   ),

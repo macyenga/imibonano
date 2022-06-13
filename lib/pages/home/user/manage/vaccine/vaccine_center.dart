@@ -37,7 +37,7 @@ class _VaccineCenterState extends State<VaccineCenter> {
             Padding(
               padding: const EdgeInsets.only(right: 95),
               child: Text(
-                "Trung tâm vaccine",
+                "Vaccine Center",
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
@@ -52,7 +52,7 @@ class _VaccineCenterState extends State<VaccineCenter> {
           Padding(
             padding: const EdgeInsets.only(left: 20, top: 14),
             child: Text(
-              "Hiển thị biểu tượng Trung tâm Vaccine trong các New compatibility của tôi.",
+              "Shows the Vaccine Center icon in my New compatibility settings.",
               style: TextStyle(color: Colors.grey),
             ),
           ),
@@ -66,7 +66,7 @@ class _VaccineCenterState extends State<VaccineCenter> {
               height: 55,
               child: CupertinoFormRow(
                 prefix: Text(
-                  'Hiển thị Biểu tượng trong các\nTương hợp',
+                  'Show Icons in \nCompatible',
                   style: TextStyle(
                     color: Colors.black,
                   ),

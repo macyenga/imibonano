@@ -123,7 +123,7 @@ class _UserPageState extends State<UserPage> {
                                   height: 10,
                                 ),
                                 Text(
-                                  "CÀI ĐẶT",
+                                  "SETTING",
                                   style: TextStyle(
                                       fontSize: 12,
                                       fontWeight: FontWeight.w600,
@@ -207,7 +207,7 @@ class _UserPageState extends State<UserPage> {
                                     height: 10,
                                   ),
                                   Text(
-                                    "CHỈNH SỬA HỒ SƠ",
+                                    "EDIT PROFILE",
                                     style: TextStyle(
                                         fontSize: 12,
                                         fontWeight: FontWeight.w600,
@@ -251,7 +251,7 @@ class _UserPageState extends State<UserPage> {
                                   height: 10,
                                 ),
                                 Text(
-                                  "AN TOÀN",
+                                  "SAFE",
                                   style: TextStyle(
                                       fontSize: 12,
                                       fontWeight: FontWeight.w600,

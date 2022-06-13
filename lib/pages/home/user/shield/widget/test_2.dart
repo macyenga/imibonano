@@ -55,7 +55,7 @@ class Test_2 extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(left: 10),
                 child: Text(
-                  "Tinder Rules\Community Quiz",
+                  "imibonano Rules\Community Quiz",
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 ),
               ),

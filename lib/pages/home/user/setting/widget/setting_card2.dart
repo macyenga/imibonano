@@ -38,7 +38,7 @@ class SettingCard2 extends StatelessWidget {
                 ),
               ),
               Text(
-                'Lượt Thích vô hạn & nhiều tiện ích khác',
+                'Infinite Likes and many more benefits',
                 style: TextStyle(
                   color: Color.fromARGB(255, 112, 111, 111),
                   fontWeight: FontWeight.w500,

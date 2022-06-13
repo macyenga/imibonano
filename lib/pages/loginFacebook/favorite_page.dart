@@ -867,7 +867,7 @@ class _Favorite_PageState extends State<Favorite_Page> {
                   // if (selected == "first") {
                   //   result = "Female";
                   // } else if (selected == "second") {
-                  //   result = "Nam";
+                  //   result = "Male";
                   // } else {
                   //   result = "Other genders";
                   // }

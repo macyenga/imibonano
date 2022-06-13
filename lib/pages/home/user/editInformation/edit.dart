@@ -274,7 +274,7 @@ class _EditState extends State<Edit> {
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
             child: Text(
-              'Thêm video,ảnh hoặc loop để hoàn thành thêm 4% hồ sơ của bạn,cùng cơ hội nhận được nhiều lượt Thích hơn',
+              'Add a video, photo or loop to complete 4% more of your profile, and a chance to get more Likes',
               style: TextStyle(fontSize: 15, color: Colors.grey),
             ),
           ),
@@ -284,7 +284,7 @@ class _EditState extends State<Edit> {
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
             child: Text(
-              'TÙY CHỌN HÌNH ẢNH',
+              'IMAGE OPTIONS SMALL',
               style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
@@ -302,7 +302,7 @@ class _EditState extends State<Edit> {
                   child: Column(children: [
                     CupertinoFormRow(
                       prefix: Text(
-                        'Ảnh thông minh',
+                        'Smart photo',
                         style: TextStyle(
                           color: Colors.grey,
                         ),
@@ -328,7 +328,7 @@ class _EditState extends State<Edit> {
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
             child: Text(
-              'Tính năng Ảnh thông minh liên tục xem xét toàn bộ ảnh hồ sơ của bạn và chọn ra ảnh đẹp nhất để hiển thị trước',
+              'The Smart Photo feature continuously reviews your entire profile picture and picks the best one to display first',
               style: TextStyle(fontSize: 15, color: Colors.grey),
             ),
           ),
@@ -338,7 +338,7 @@ class _EditState extends State<Edit> {
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
             child: Text(
-              'GIỚI THIỆU BẢN THÂN',
+              'INTRODUCE YOURSELF',
               style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
@@ -364,7 +364,7 @@ class _EditState extends State<Edit> {
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
             child: Text(
-              'SỞ THÍCH',
+              'INTERESTS',
               style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
@@ -392,7 +392,7 @@ class _EditState extends State<Edit> {
                                   builder: (context) => EditFavotire()));
                         },
                         child: Text(
-                          'ấn vào',
+                          'Press',
                           style: TextStyle(
                             color: Colors.grey,
                           ),
@@ -414,7 +414,7 @@ class _EditState extends State<Edit> {
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
             child: Text(
-              'PHONG CÁCH SỐNG',
+              'STYLE OF LIFE',
               style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
@@ -435,7 +435,7 @@ class _EditState extends State<Edit> {
                   children: [
                     CupertinoFormRow(
                       prefix: Text(
-                        'Cung hoàng đạo',
+                        'Zodiac',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -449,7 +449,7 @@ class _EditState extends State<Edit> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Chế độ ăn uống',
+                        'Diet',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -463,7 +463,7 @@ class _EditState extends State<Edit> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Thú cưng',
+                        'Pet',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -477,7 +477,7 @@ class _EditState extends State<Edit> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Giáo dục',
+                        'Education',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -491,7 +491,7 @@ class _EditState extends State<Edit> {
                     ),
                     CupertinoFormRow(
                       prefix: Text(
-                        'Hút thuốc',
+                        'Smoke',
                         style: TextStyle(
                           color: Colors.black,
                         ),
@@ -518,7 +518,7 @@ class _EditState extends State<Edit> {
                   style: TextStyle(color: Colors.red),
                 ),
                 Text(
-                  'CHỨC DANH',
+                  'TITLE',
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
@@ -541,7 +541,7 @@ class _EditState extends State<Edit> {
                   children: [
                     CupertinoFormRow(
                       prefix: Text(
-                        'Thêm chức danh',
+                        'Add title',
                         style: TextStyle(
                           color: Colors.grey,
                         ),
@@ -575,7 +575,7 @@ class _EditState extends State<Edit> {
                   style: TextStyle(color: Colors.red),
                 ),
                 Text(
-                  'CÔNG TY',
+                  'COMPANY',
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
@@ -598,7 +598,7 @@ class _EditState extends State<Edit> {
                   children: [
                     CupertinoFormRow(
                       prefix: Text(
-                        'Thêm công ty',
+                        'Add company',
                         style: TextStyle(
                           color: Colors.grey,
                         ),
@@ -628,7 +628,7 @@ class _EditState extends State<Edit> {
             child: Row(
               children: [
                 Text(
-                  'TRƯỜNG',
+                  'SCHOOL',
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
@@ -651,7 +651,7 @@ class _EditState extends State<Edit> {
                   children: [
                     CupertinoFormRow(
                       prefix: Text(
-                        'Thêm Trường',
+                        'Add School',
                         style: TextStyle(
                           color: Colors.grey,
                         ),
@@ -678,7 +678,7 @@ class _EditState extends State<Edit> {
                   style: TextStyle(color: Colors.red),
                 ),
                 Text(
-                  'ĐANG SỐNG TẠI',
+                  'LIVE IN',
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
@@ -708,7 +708,7 @@ class _EditState extends State<Edit> {
                                   builder: (context) => EditCity()));
                         },
                         child: Text(
-                          'Thêm Thành phố',
+                          'More Cities',
                           style: TextStyle(
                             color: Colors.grey,
                           ),
@@ -751,7 +751,7 @@ class _EditState extends State<Edit> {
                       children: [
                         CupertinoFormRow(
                           prefix: Text(
-                            'Hiển thị các quyết định trong hồ sơ',
+                            'Show decisions in profile',
                             style: TextStyle(
                               color: Colors.grey,
                             ),
@@ -783,7 +783,7 @@ class _EditState extends State<Edit> {
                   style: TextStyle(color: Colors.red),
                 ),
                 Text(
-                  'ẢNH INSTAGRAM',
+                  'INSTAGRAM PHOTO',
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
@@ -806,13 +806,13 @@ class _EditState extends State<Edit> {
                   children: [
                     CupertinoFormRow(
                       prefix: Text(
-                        'Kết nối Instagram',
+                        'Connect Instagram',
                         style: TextStyle(
                           color: Colors.grey,
                         ),
                       ),
                       child: Text(
-                        'KẾT NỐI',
+                        'CONNECTION',
                         style: TextStyle(color: Colors.pinkAccent),
                       ),
                     ),
@@ -827,7 +827,7 @@ class _EditState extends State<Edit> {
             child: Row(
               children: [
                 Text(
-                  'BÀI HÁT SPOTIFY YÊU THÍCH',
+                  'FAVORITE SPOTIFY SONG',
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
@@ -850,7 +850,7 @@ class _EditState extends State<Edit> {
                   children: [
                     CupertinoFormRow(
                       prefix: Text(
-                        'Kết nối Spotify',
+                        'Spotify Connect',
                         style: TextStyle(
                           color: Colors.grey,
                         ),
@@ -877,7 +877,7 @@ class _EditState extends State<Edit> {
                   style: TextStyle(color: Colors.red),
                 ),
                 Text(
-                  'TOP NGHỆ SĨ SPOTIFY',
+                  'TOP SPOTIFY ARTIST',
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
@@ -900,13 +900,13 @@ class _EditState extends State<Edit> {
                   children: [
                     CupertinoFormRow(
                       prefix: Text(
-                        'Kết nối Spotify',
+                        'Spotify Connect',
                         style: TextStyle(
                           color: Colors.grey,
                         ),
                       ),
                       child: Text(
-                        'KẾT NỐI',
+                        'CONNECTION',
                         style: TextStyle(color: Colors.pinkAccent),
                       ),
                     ),
@@ -921,7 +921,7 @@ class _EditState extends State<Edit> {
             child: Row(
               children: [
                 Text(
-                  'GIỚI TÍNH',
+                  'SEX',
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
@@ -975,7 +975,7 @@ class _EditState extends State<Edit> {
             child: Row(
               children: [
                 Text(
-                  'Trend TÍNH DỤC',
+                  'SEXUAL STRATEGY',
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
@@ -1005,7 +1005,7 @@ class _EditState extends State<Edit> {
                                   builder: (context) => EditSex()));
                         },
                         child: Text(
-                          'Thêm Trend Tính Dục',
+                          'More Sex Trends',
                           style: TextStyle(
                             color: Colors.grey,
                           ),
@@ -1029,7 +1029,7 @@ class _EditState extends State<Edit> {
             child: Row(
               children: [
                 Text(
-                  'KIỂM SOÁT HỒ SƠ CỦA BẠN',
+                  'CONTROL YOUR PROFILE',
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
@@ -1041,7 +1041,7 @@ class _EditState extends State<Edit> {
                       borderRadius: BorderRadius.circular(10),
                       color: Colors.red),
                   child: Text(
-                    'Tinder Plus',
+                    'imibonano Plus',
                     style: TextStyle(color: Colors.white),
                   ),
                 )
@@ -1062,7 +1062,7 @@ class _EditState extends State<Edit> {
                       children: [
                         CupertinoFormRow(
                           prefix: Text(
-                            'Ẩn tuổi của tôi',
+                            'Hide my age',
                             style: TextStyle(
                               color: Colors.grey,
                             ),
@@ -1083,7 +1083,7 @@ class _EditState extends State<Edit> {
                         ),
                         CupertinoFormRow(
                           prefix: Text(
-                            'Ẩn khoảng cách của tôi',
+                            'Hide my distance',
                             style: TextStyle(
                               color: Colors.grey,
                             ),

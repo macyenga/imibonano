@@ -48,7 +48,7 @@ class _SettingState extends State<Setting> {
         backgroundColor: Colors.white.withOpacity(0),
         elevation: 0,
         title: Text(
-          'Cài đặt',
+          'Setting',
           style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.bold,
@@ -319,7 +319,7 @@ class _SettingState extends State<Setting> {
                                     ),
                                   ),
                                   Text(
-                                    "Ho Chi Minh City, Ho Chi Minh City",
+                                    "kigali,rwanda",
                                     style: TextStyle(
                                       fontSize: 16,
                                       color: Color.fromARGB(255, 134, 127, 127),
@@ -474,7 +474,7 @@ class _SettingState extends State<Setting> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Độ tuổi Ưu tiên",
+                              "Age Priority",
                               style: TextStyle(
                                   fontWeight: FontWeight.normal,
                                   fontSize: 18,
@@ -535,7 +535,7 @@ class _SettingState extends State<Setting> {
                       ),
                       CupertinoFormRow(
                         prefix: Text(
-                          'Toàn Cầu',
+                          'Global',
                           style: TextStyle(
                             color: Colors.black,
                           ),
@@ -568,7 +568,7 @@ class _SettingState extends State<Setting> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Mở ra toàn cầu sẽ tạo cơ hội để bạn gặp gỡ nhiều người quanh đây cũng như ở khắp nơi trên thế giới',
+                  'Opening up to the world will give you the opportunity to meet many people around here as well as around the world',
                   style: TextStyle(
                     color: Colors.grey,
                   ),
@@ -589,7 +589,7 @@ class _SettingState extends State<Setting> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'NGÔN NGỮ ĐẦU TIÊN',
+                  'FIRST LANGUAGE',
                   style: TextStyle(
                     color: Color.fromARGB(255, 114, 112, 112),
                   ),
@@ -621,7 +621,7 @@ class _SettingState extends State<Setting> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Tiếng Việt",
+                              "Rwanda",
                               style: TextStyle(
                                 fontWeight: FontWeight.normal,
                                 fontSize: 18,
@@ -646,7 +646,7 @@ class _SettingState extends State<Setting> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Thêm ngôn ngữ..",
+                              "Add language..",
                               style: TextStyle(
                                 fontSize: 18,
                                 color: Colors.blue,
@@ -673,7 +673,7 @@ class _SettingState extends State<Setting> {
                 Row(
                   children: [
                     Text(
-                      'KIỂM SOÁT AI BẠN SẼ THẤY',
+                      'CONTROL WHO YOU WILL SEE',
                       style: TextStyle(
                         color: Color.fromARGB(255, 114, 112, 112),
                       ),
@@ -690,7 +690,7 @@ class _SettingState extends State<Setting> {
                       // color: Colors.pink
 
                       child: Text(
-                        " Tinder Plus",
+                        " imibonano Plus",
                         style: TextStyle(
                           color: Colors.white,
                         ),
@@ -721,7 +721,7 @@ class _SettingState extends State<Setting> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Đề xuất đối tượng chọn lọc',
+                            'Recommend Selected Objects',
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 18,
@@ -730,7 +730,7 @@ class _SettingState extends State<Setting> {
                           Container(
                             width: 320,
                             child: Text(
-                              'Xem những người phù hợp với bạn nhất(cài đặt mặc định)',
+                              'See who matches you best (default setting)',
                               style:
                                   TextStyle(fontSize: 14, color: Colors.grey),
                             ),
@@ -761,7 +761,7 @@ class _SettingState extends State<Setting> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Đề xuất đối tượng chọn lọc',
+                            'Recommend Selected Objects',
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 18,
@@ -770,7 +770,7 @@ class _SettingState extends State<Setting> {
                           Container(
                             width: 320,
                             child: Text(
-                              'Xem những người có hoạt động mới nhất trước',
+                              'See who has the latest activity first',
                               style:
                                   TextStyle(fontSize: 14, color: Colors.grey),
                             ),
@@ -802,7 +802,7 @@ class _SettingState extends State<Setting> {
                 Row(
                   children: [
                     Text(
-                      'KIỂM SOÁT AI THẤY ĐƯỢC BẠN',
+                      'CONTROL WHO CAN SEE YOU',
                       style: TextStyle(
                         color: Color.fromARGB(255, 114, 112, 112),
                       ),
@@ -818,7 +818,7 @@ class _SettingState extends State<Setting> {
                       ),
                       // color: Colors.pink
 
-                      child: Text(" Tinder Plus",
+                      child: Text(" imibonano Plus",
                           style: TextStyle(
                             color: Colors.white,
                           )),
@@ -848,7 +848,7 @@ class _SettingState extends State<Setting> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Tiêu chuẩn',
+                            'Standard',
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 18,
@@ -857,7 +857,7 @@ class _SettingState extends State<Setting> {
                           Container(
                             width: 320,
                             child: Text(
-                              'Chỉ hiển thị cho một số kiểu người nhất định đề xuất cá nhân',
+                              'Only visible to certain types of people, personal recommendations',
                               style:
                                   TextStyle(fontSize: 14, color: Colors.grey),
                             ),
@@ -888,7 +888,7 @@ class _SettingState extends State<Setting> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Chỉ những người tôi Thích',
+                            'Only People I Like',
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 18,
@@ -897,7 +897,7 @@ class _SettingState extends State<Setting> {
                           Container(
                             width: 320,
                             child: Text(
-                              'Chỉ những người tôi đã quẹt phải sẽ thấy tôi',
+                              'Only people I swiped right will see me',
                               style:
                                   TextStyle(fontSize: 14, color: Colors.grey),
                             ),
@@ -932,7 +932,7 @@ class _SettingState extends State<Setting> {
                 children: [
                   CupertinoFormRow(
                     prefix: Text(
-                      'Hiển thị tôi trên Tinder',
+                      'Show me on imibonano',
                       style: TextStyle(
                         color: Colors.black,
                       ),
@@ -961,7 +961,7 @@ class _SettingState extends State<Setting> {
           Padding(
             padding: const EdgeInsets.only(left: 15),
             child: Text(
-              'Khi đã tắt,bạn sẽ không được hiển thị trong thẻ đại diện.Những người bạn đã tỏ ý thích có thể vẫn nhìn thấy hồ sơ và tương hợp với bạn.Bạn vẫn có thể xem và trò chuyện với các bạn tương hợp của mình.',
+              "Once turned off, you won't be shown in your profile card. People you've liked can still see your profile and matches. You can still view and chat with your compatible friends. ",
               style: TextStyle(
                 fontSize: 15,
                 color: Color.fromARGB(255, 148, 146, 146),
@@ -998,7 +998,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Chặn liên hệ",
+                                "Block contact",
                                 style: TextStyle(
                                   fontWeight: FontWeight.normal,
                                   fontSize: 18,
@@ -1028,7 +1028,7 @@ class _SettingState extends State<Setting> {
           Padding(
             padding: const EdgeInsets.only(left: 15),
             child: Text(
-              'Chọn những đối tượng bạn không muốn nhìn thấy hoặc không muốn họ nhìn thấy bạn trên Tinder từ danh sách liên hệ của bạn',
+              "Select the people you don't want to see or don't want them to see you on imibonano from your contact list",
               style: TextStyle(
                 fontSize: 15,
                 color: Colors.grey,
@@ -1045,7 +1045,7 @@ class _SettingState extends State<Setting> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'HỢP CẠ',
+                  'COMPETITION',
                   style: TextStyle(
                     color: Color.fromARGB(255, 102, 101, 101),
                   ),
@@ -1083,7 +1083,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Quản lý Hợp cạ",
+                                "Contract Management",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -1152,7 +1152,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Quản lý Top Selection",
+                                "Top Selection Manager",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -1183,7 +1183,7 @@ class _SettingState extends State<Setting> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'THÔNG BÁO ĐÃ XEM',
+                  'NOTICE FOR WATCHING',
                   style: TextStyle(
                     color: Color.fromARGB(255, 102, 101, 101),
                   ),
@@ -1211,7 +1211,7 @@ class _SettingState extends State<Setting> {
                       );
                     },
                     child: Hero(
-                      tag: "manage_noti",
+                      tag: "manage_notification",
                       child: Container(
                         padding:
                             const EdgeInsets.only(left: 5, top: 10, bottom: 10),
@@ -1221,7 +1221,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Quản lý Thông báo đã xem",
+                                "Manage Viewed Notifications",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -1252,7 +1252,7 @@ class _SettingState extends State<Setting> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'KHUNG GIỜ VÀNG',
+                  'GOLDEN TIME FRAME',
                   style: TextStyle(
                     color: Color.fromARGB(255, 102, 101, 101),
                   ),
@@ -1290,7 +1290,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Quản lý Khung giờ vàng",
+                                "Manage Golden Hour",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -1321,7 +1321,7 @@ class _SettingState extends State<Setting> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'TRUNG TÂM VACCINE',
+                  'VACCINE CENTER',
                   style: TextStyle(
                     color: Color.fromARGB(255, 102, 101, 101),
                   ),
@@ -1360,7 +1360,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Quản lý Trung tâm Vaccine",
+                                "Vaccine Center Manager",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -1391,7 +1391,7 @@ class _SettingState extends State<Setting> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'MỨC SỬ DỤNG DỮ LIỆU',
+                  'DATA USAGE',
                   style: TextStyle(
                     color: Color.fromARGB(255, 102, 101, 101),
                   ),
@@ -1429,7 +1429,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Phát tự động video",
+                                "Video autoplay",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -1460,7 +1460,7 @@ class _SettingState extends State<Setting> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'TRẠNG THÁI HOẠT ĐỘNG',
+                  'OPERATION STATUS',
                   style: TextStyle(
                     color: Color.fromARGB(255, 102, 101, 101),
                   ),
@@ -1498,7 +1498,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Đang  trực tuyến",
+                                "Online",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -1540,7 +1540,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Trạng thái hoạt động gần đây",
+                                "Recent activity status",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -1571,7 +1571,7 @@ class _SettingState extends State<Setting> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'HỒ SƠ WEB',
+                  'WEB PROFILE',
                   style: TextStyle(
                     color: Color.fromARGB(255, 102, 101, 101),
                   ),
@@ -1609,7 +1609,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Tên người...",
+                                "Name...",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -1619,7 +1619,7 @@ class _SettingState extends State<Setting> {
                               children: [
                                 Container(
                                   child: Text(
-                                    "Nhập tên người dùng của bạn",
+                                    "Enter your username",
                                     style: TextStyle(
                                       fontSize: 17,
                                       color: Colors.grey,
@@ -1656,7 +1656,7 @@ class _SettingState extends State<Setting> {
           Padding(
             padding: const EdgeInsets.only(left: 10),
             child: Text(
-              'Tạo Tên người dùng công khai.Chia sẻ tên người dùng của bạn để mọi người trên toàn thế giới có thể vuốt qua phải cho bạn trên Tinder',
+              'Create a Public Username.Share your username so people all over the world can swipe right for you on imibonano',
               style: TextStyle(
                 fontSize: 15,
                 color: Color.fromARGB(255, 129, 128, 128),
@@ -1679,7 +1679,7 @@ class _SettingState extends State<Setting> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'THÔNG BÁO',
+                        'NOTIFICATION',
                         style: TextStyle(
                           color: Color.fromARGB(255, 102, 101, 101),
                         ),
@@ -1762,7 +1762,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Thông Báo Cập Nhật",
+                                "Update Notice",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -1794,7 +1794,7 @@ class _SettingState extends State<Setting> {
                       );
                     },
                     child: Hero(
-                      tag: "teamtinder",
+                      tag: "teamimibonano",
                       child: Container(
                         padding:
                             const EdgeInsets.only(left: 5, top: 10, bottom: 10),
@@ -1804,7 +1804,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Team tinder",
+                                "Team imibonano",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -1831,7 +1831,7 @@ class _SettingState extends State<Setting> {
           Padding(
             padding: const EdgeInsets.only(left: 15),
             child: Text(
-              'Chọn các thông báo muốn xem khi đang ở trong ứng dụng',
+              'Select the notifications you want to see while in the app',
               style: TextStyle(
                   fontSize: 15, color: Color.fromARGB(255, 102, 100, 100)),
             ),
@@ -1863,7 +1863,7 @@ class _SettingState extends State<Setting> {
                         height: 40,
                         child: Container(
                           child: Text(
-                            "Khôi phục hoạt động Mua",
+                            "Restore Purchase",
                             style: TextStyle(
                               fontSize: 18,
                             ),
@@ -1896,14 +1896,14 @@ class _SettingState extends State<Setting> {
                       );
                     },
                     child: Hero(
-                      tag: "shareTinder",
+                      tag: "shareimibonano",
                       child: Container(
                         padding:
                             const EdgeInsets.only(left: 5, top: 10, bottom: 10),
                         height: 40,
                         child: Container(
                           child: Text(
-                            "Share Tinder",
+                            "Share imibonano",
                             style: TextStyle(
                               fontSize: 18,
                             ),
@@ -1935,7 +1935,7 @@ class _SettingState extends State<Setting> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'CỘNG ĐỒNG',
+                        'COMMUNITY',
                         style: TextStyle(
                           color: Color.fromARGB(255, 102, 101, 101),
                         ),
@@ -1976,7 +1976,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Quy tắc Cộng đồng",
+                                "Community Rules",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -2018,7 +2018,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Bí quyết An Toàn",
+                                "Safety Tips",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -2060,7 +2060,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Trung tâm An toàn",
+                                "Safety Center",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -2097,7 +2097,7 @@ class _SettingState extends State<Setting> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'QUYỀN RIÊNG TƯ',
+                        'PRIVACY',
                         style: TextStyle(
                           color: Color.fromARGB(255, 102, 101, 101),
                         ),
@@ -2138,7 +2138,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Chính sách Cookie",
+                                "Cookie Policy",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -2180,7 +2180,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Chính sách Quyền riêng tư",
+                                "Privacy Policy",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -2222,7 +2222,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Tùy chọn Quyền riêng tư",
+                                "Privacy Options",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -2300,7 +2300,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Giấy phép",
+                                "License",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -2342,7 +2342,7 @@ class _SettingState extends State<Setting> {
                           children: [
                             Container(
                               child: Text(
-                                "Điều khoản Dịch vụ",
+                                "Terms of Service",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -2395,7 +2395,7 @@ class _SettingState extends State<Setting> {
                         height: 40,
                         child: Container(
                           child: Text(
-                            "Đăng xuất",
+                            "Log out",
                             style: TextStyle(
                               fontSize: 18,
                             ),
@@ -2427,7 +2427,7 @@ class _SettingState extends State<Setting> {
                 ),
               ),
               Text(
-                "Phiên bản 13.8.0",
+                "Version 0.0.1",
                 style: TextStyle(
                   color: Colors.grey,
                 ),
@@ -2456,7 +2456,7 @@ class _SettingState extends State<Setting> {
                         height: 40,
                         child: Container(
                           child: Text(
-                            "Xóa tài khoản",
+                            "Delete the account",
                             style: TextStyle(
                               fontSize: 18,
                             ),

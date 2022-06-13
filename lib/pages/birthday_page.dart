@@ -94,7 +94,7 @@ class _BirthdayPageState extends State<BirthdayPage> {
           // color: Colors.blue,
           margin: EdgeInsets.only(left: 60, right: 65),
           child: Text(
-            "This is how your name appears on Tinder and you won't change it later",
+            "This is how your name appears on imibonano and you won't change it later",
             style: TextStyle(
               color: grey,
               fontSize: 17,

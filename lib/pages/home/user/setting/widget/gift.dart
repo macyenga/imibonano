@@ -44,7 +44,7 @@ class Gift extends StatelessWidget {
                 Container(
                   margin: EdgeInsets.only(top: 12),
                   child: Text(
-                    'Nhận Thưởng',
+                    'Get Rewards',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,

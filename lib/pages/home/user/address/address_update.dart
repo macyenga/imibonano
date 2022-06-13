@@ -38,7 +38,7 @@ class _AddressUpdateState extends State<AddressUpdate> {
             Padding(
               padding: const EdgeInsets.only(right: 125),
               child: Text(
-                "Địa điểm",
+                "Location",
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
@@ -53,7 +53,7 @@ class _AddressUpdateState extends State<AddressUpdate> {
           Container(
             margin: EdgeInsets.only(left: 20, top: 20),
             child: Text(
-              "ĐỊA ĐIỂM HIỆN TẠI",
+              "CURRENT LOCATION",
               style: TextStyle(
                 color: grey,
               ),
@@ -91,7 +91,7 @@ class _AddressUpdateState extends State<AddressUpdate> {
                               Padding(
                                 padding: const EdgeInsets.only(bottom: 0),
                                 child: Text(
-                                  "Địa điểm hiện tại của tôi",
+                                  "My current location",
                                   style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
@@ -100,7 +100,7 @@ class _AddressUpdateState extends State<AddressUpdate> {
                               ),
                               Expanded(
                                 child: Text(
-                                  "Hồ Chí Minh, Thành Phố Hồ Chí Minh",
+                                  "kigali,rwanda",
                                   style: TextStyle(fontSize: 16),
                                 ),
                               ),
@@ -132,7 +132,7 @@ class _AddressUpdateState extends State<AddressUpdate> {
                 FlatButton(
                   onPressed: () {},
                   child: Text(
-                    "Thêm địa điểm mới",
+                    "Add new location",
                     style: TextStyle(fontSize: 18),
                   ),
                   textColor: Colors.white,
