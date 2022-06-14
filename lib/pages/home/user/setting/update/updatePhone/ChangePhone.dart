@@ -77,7 +77,7 @@ class _ChangePhoneState extends State<ChangePhone> {
                         decoration: InputDecoration(
                           labelText: 'Phone Number',
                         ),
-                        initialCountryCode: 'IN',
+                        initialCountryCode: 'RW',
                         onChanged: (phone) {
                           print(phone.completeNumber);
                         },
@@ -211,7 +211,7 @@ class _ChangePhoneState extends State<ChangePhone> {
           fontSize: 16.0);
     } else {
       auth.verifyPhoneNumber(
-        phoneNumber: '+84' + phoneNumber.text,
+        phoneNumber: '+250' + phoneNumber.text,
         verificationCompleted: (PhoneAuthCredential credential) async {
           await auth.signInWithCredential(credential).then((value) {
             print("You are logged in successfully");

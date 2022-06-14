@@ -1,4 +1,5 @@
 // @dart=2.9
+import 'package:imibonano/pages/home/home.dart';
 import 'package:imibonano/pages/home/root_app.dart';
 import 'package:imibonano/pages/home/user/editInformation/edit.dart';
 import 'package:imibonano/pages/home/user/setting.dart';
@@ -20,7 +21,7 @@ Future<void> main() async {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: user != null ? RootApp() : LoginPage(),
+      home: user != null ? RootApp() : HomePage(),
       // home: LoginPage(),
     ),
   );

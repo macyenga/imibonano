@@ -91,7 +91,7 @@ class _LoginPhoneState extends State<LoginPhone> {
                         //   }
                         // },
 
-                        initialCountryCode: 'IN',
+                        initialCountryCode: 'RW',
                         onChanged: (phone) {
                           print(phone.completeNumber);
                         },
@@ -216,7 +216,7 @@ class _LoginPhoneState extends State<LoginPhone> {
     final List<DocumentSnapshot> documents = result.docs;
     if (documents.length > 0) {
       auth.verifyPhoneNumber(
-        phoneNumber: '+84' + phoneNumber.text,
+        phoneNumber: '+250' + phoneNumber.text,
         verificationCompleted: (PhoneAuthCredential credential) async {
           await auth.signInWithCredential(credential).then((value) {
             print("You are logged in successfully");
