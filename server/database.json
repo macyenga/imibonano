@@ -1,0 +1,21 @@
+{
+	"local": {
+		"driver": "pg",
+		"user": "postgres",
+		"password": "Present100%",
+		"host": "localhost",
+		"database": "imibonano_db",
+		"port": "5432",
+		"schema": "public"
+	},
+	"test": {
+		"driver": "pg",
+		"user": "postgres",
+		"password": "Present100%",
+		"host": "localhost",
+		"database": "imibonano_db-test",
+		"port": "5433",
+		"schema": "public"
+	},
+	"sql-file": true
+}
