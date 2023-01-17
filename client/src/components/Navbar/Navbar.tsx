@@ -111,7 +111,7 @@ const Navbar = ({
 						style={{
 							fontFamily: "'Paytone One', cursive",
 							fontSize: '1.6rem',
-							color: '#ffc600',
+							color: '#fff',
 							textAlign: 'center'
 						}}
 					>
