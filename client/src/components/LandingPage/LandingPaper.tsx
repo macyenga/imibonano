@@ -26,7 +26,7 @@ const LandingPaper = () => {
 					Find true love today
 				</Typography>
 				<Typography>
-					Make your connection and start building something real with us. Join Matcha or sign in  if you already have an account.
+					Make your connection and start building something real with us. Join Imibonano or sign in  if you already have an account.
 				</Typography>
 				<Box
 					sx={{
