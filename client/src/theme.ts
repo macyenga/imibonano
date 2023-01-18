@@ -1,6 +1,10 @@
 import { createTheme } from '@mui/material/styles';
 import { blue, pink, lightBlue } from '@mui/material/colors';
+import styled, { keyframes } from 'styled-components'
 
+
+
+const backgroundImage = require('./icons/DATINGSITES.gif'); // import or require your image
 const theme = createTheme({
   typography: {
     fontFamily: [
@@ -18,17 +22,28 @@ const theme = createTheme({
   },
   palette: {
     background: {
-      default: '#f5f5f5'
+      default: `url(${backgroundImage})`,
+  
+
     },
     primary: {
       main: blue[600],
+      light: '#E1BEE7',
+      dark: '#121212 ',
       contrastText: '#fff'
     },
     secondary: {
-      main: blue[600]
+      main: blue[600],
+      light: '#C8E6C9',
+      dark: '#388E3C',
     },
     success: {
-      main: lightBlue[600]
+      main: '#4CAF50',
+      contrastText: '#fff'
+    },
+    error: {
+      main: '#F44336',
+      contrastText: '#fff'
     }
   },
   components: {
@@ -83,5 +98,7 @@ const theme = createTheme({
     }
   }
 });
+
+
 
 export default theme;
