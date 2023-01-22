@@ -141,7 +141,7 @@ const Navbar = ({ setMobileOpen, mobileOpen }) => {
 						style={{
 							fontFamily: "'Paytone One', cursive",
 							fontSize: '1.6rem',
-							color: '#fff',
+							color: '#F44336',
 							textAlign: 'center'
 						}}
 					>

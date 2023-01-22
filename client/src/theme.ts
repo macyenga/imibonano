@@ -4,7 +4,7 @@ import styled, { keyframes } from 'styled-components'
 
 
 
-const backgroundImage = require('./icons/DATINGSITES.gif'); // import or require your image
+const backgroundImage = require('./icons/Facebook.png'); // import or require your image
 const theme = createTheme({
   typography: {
     fontFamily: [
@@ -33,7 +33,7 @@ const theme = createTheme({
       contrastText: '#fff'
     },
     secondary: {
-      main: blue[600],
+      main: '#fafafa',
       light: '#C8E6C9',
       dark: '#388E3C',
     },

@@ -1,30 +1,39 @@
 import React from 'react';
-import { makeStyles } from '@mui/material/styles';
-import Typography from '@mui/material/Typography';
+import styled from 'styled-components';
 import Link from '@mui/material/Link';
+import Typography from '@mui/material/Typography';
+const FooterContainer = styled.footer`
+  background-color: #fafafa;
+  padding: 20px;
+`;
+
+const FooterLink = styled(Link)`
+  margin-right: 10px;
+  color: #000;
+`;
 
 const Footer = () => {
 	return (
-		<footer>
+		<FooterContainer>
 			<Typography variant="body2" align="center">
-				<Link href="/">imibonano</Link> by Macyenga & supernover
+				<FooterLink href="/">imibonano</FooterLink> by Macyenga & supernover
 			</Typography>
 			<Typography variant="body2" align="center">
-				<Link href="/privacy-policy">Privacy Policy</Link> | <Link href="/terms-of-use">Terms of Use</Link> | <Link href="/safety-tips">Safety Tips</Link>
+				<FooterLink href="/privacy-policy">Privacy Policy</FooterLink> | <FooterLink href="/terms-of-use">Terms of Use</FooterLink> | <FooterLink href="/safety-tips">Safety Tips</FooterLink>
 			</Typography>
 			<Typography variant="body2" align="center">
-				<Link href="mailto:support@yourdatingsite.com">support@yourdatingsite.com</Link> | <Link href="tel:+1234567890">(123) 456-7890</Link> | 123 Main St, Anytown USA 12345
+				<FooterLink href="mailto:support@imibonano.com">support@imibonano.com</FooterLink> | <FooterLink href="tel:+1234567890">(123) 456-7890</FooterLink> | 123 Main St, Anytown USA 12345
 			</Typography>
 			<Typography variant="body2" align="center">
-				Follow us on: <Link href="https://www.facebook.com/yourdatingsite">Facebook</Link> | <Link href="https://www.instagram.com/yourdatingsite">Instagram</Link> | <Link href="https://twitter.com/yourdatingsite">Twitter</Link>
+				Follow us on: <FooterLink href="https://www.facebook.com/imibonano">Facebook</FooterLink> | <FooterLink href="https://www.instagram.com/imibonano">Instagram</FooterLink> | <FooterLink href="https://twitter.com/imibonano">Twitter</FooterLink>
 			</Typography>
 			<Typography variant="body2" align="center">
-				<Link href="/faq">Frequently Asked Questions</Link> | <Link href="/blog">Blog</Link>
+				<FooterLink href="/faq">Frequently Asked Questions</FooterLink> | <FooterLink href="/blog">Blog</FooterLink>
 			</Typography>
 			<Typography variant="body2" align="center">
-				© {new Date().getFullYear()}
+				&copy; {new Date().getFullYear()}
 			</Typography>
-		</footer>
+		</FooterContainer>
 	);
 };
 

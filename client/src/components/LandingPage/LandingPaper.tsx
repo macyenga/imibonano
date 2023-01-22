@@ -48,6 +48,7 @@ const LandingPaper = () => {
 						</Button>
 					</Link>
 				</Box>
+				
 			</Box>
 		</StyledPaper>
 	);
