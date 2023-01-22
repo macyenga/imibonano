@@ -4,7 +4,6 @@ import styled, { keyframes } from 'styled-components'
 
 
 
-const backgroundImage = require('./icons/Facebook.png'); // import or require your image
 const theme = createTheme({
   typography: {
     fontFamily: [
@@ -22,7 +21,7 @@ const theme = createTheme({
   },
   palette: {
     background: {
-      default: `url(${backgroundImage})`,
+      default: '#fff',
   
 
     },

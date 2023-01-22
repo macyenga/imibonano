@@ -50,7 +50,7 @@ export const sendActivationCode = (user: User): void => {
 		Thank you for signing up for Imibonano! We are excited to have you join our community.
 
 		Please click on the following link to activate your account: 
-		https://matcha-client.onrender.com/login?activate=${user.activationCode}
+		http://3000/login?activate=${user.activationCode}
 
 		If the link above does not work, please copy and paste the entire link into your browser's address bar.
 
@@ -109,7 +109,7 @@ export const sendResetPasswordLink = (user: User, newResetRequset: PasswordReset
 		'Password reset link for Imibonano-account',
 		`<h1>Hi, forgot your password? No problem! !</h1>
 			<p>Visit the link below to reset your password:</p>
-			<a href='https://matcha-client.onrender.com/forgot_password?reset=${newResetRequset.token}'>Reset password here</a>
+			<a href='http://3000/forgot_password?reset=${newResetRequset.token}'>Reset password here</a>
 			<p>Link will be active until ${newResetRequset.expiresAt}.</p>
 			<p>Ignore this message if you haven't requested password reset.</p>
 
@@ -160,7 +160,7 @@ export const mailEmailUpdateLink = (email: User['email'], newUpdateRequest: Emai
 		'Confirm email reset for Imibonano-account',
 		`<h1>Hi, here you can confirm email reset!</h1>
 			<p>Visit the link below to reset your email:</p>
-			<a href='https://matcha-client.onrender.com/update_email?update=${newUpdateRequest.token}'>Reset email here</a>
+			<a href='http://3000/update_email?update=${newUpdateRequest.token}'>Reset email here</a>
 			<p>Link will be active until ${newUpdateRequest.expiresAt}.</p>
 			<p>Ignore this message if you haven't requested email reset.</p>
 

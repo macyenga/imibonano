@@ -1,1 +1,1 @@
-export const apiBaseUrl = 'https://Imibonano-server-ilona-aleksei.onrender.com/api';
+export const apiBaseUrl = 'https://imibonano-1.cvusofg0vjpu.us-east-1.rds.amazonaws.com/api';

@@ -22,7 +22,7 @@ const Footer = () => {
 				<FooterLink href="/privacy-policy">Privacy Policy</FooterLink> | <FooterLink href="/terms-of-use">Terms of Use</FooterLink> | <FooterLink href="/safety-tips">Safety Tips</FooterLink>
 			</Typography>
 			<Typography variant="body2" align="center">
-				<FooterLink href="mailto:support@imibonano.com">support@imibonano.com</FooterLink> | <FooterLink href="tel:+1234567890">(123) 456-7890</FooterLink> | 123 Main St, Anytown USA 12345
+				<FooterLink href="mailto:macyenga@gmail.com">support@imibonano.com</FooterLink> | <FooterLink href="tel:+250789690247">(+250) 789-6902-47-</FooterLink> | 3355+8H, Kigali
 			</Typography>
 			<Typography variant="body2" align="center">
 				Follow us on: <FooterLink href="https://www.facebook.com/imibonano">Facebook</FooterLink> | <FooterLink href="https://www.instagram.com/imibonano">Instagram</FooterLink> | <FooterLink href="https://twitter.com/imibonano">Twitter</FooterLink>
