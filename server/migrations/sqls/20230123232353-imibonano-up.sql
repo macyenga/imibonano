@@ -1,4 +1,4 @@
-create table users
+/* Replace with your SQL commands */create table users
 (
 	id bigserial primary key,
 	username varchar not null unique,
