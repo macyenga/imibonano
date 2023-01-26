@@ -1,5 +1,5 @@
 database:
-  host: localhost
+  host: imibonano-1.cvusofg0vjpu.us-east-1.rds.amazonaws.com
   port: 5432
   name: imibonano_db
   username: postgres
