@@ -67,7 +67,7 @@ export const getAuth = (): Auth => {
 // };
 
 export const socket: Socket<ServerToClientEvents, ClientToServerEvents> = io(
-	'http://localhost:3001',
+	'https://imibonano-deploy.onrender.com',
 	{
 		autoConnect: false,
 		reconnection: true,
