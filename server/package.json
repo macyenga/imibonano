@@ -5,8 +5,8 @@
 	"main": "index.ts",
 	"scripts": {
 		"start": "ts-node src/index.ts",
-		"dev": "NODE_ENV=development ts-node-dev src/index.ts",
-		"test": "NODE_ENV=test jest --verbose --runInBand --forceExit",
+		"dev": "ts-node-dev src/index.ts",
+		"test": "jest --verbose --runInBand --forceExit",
 		"build": "npm install && npm run populate && npm run populate:likes",
 		"connect-db": "psql --host=imibonano-1.cvusofg0vjpu.us-east-1.rds.amazonaws.com --port=5432 --username=postgres --Present100% --dbname=imibonano_db",
 		"connect-db:test": "psql --host=imibonano-1.cvusofg0vjpu.us-east-1.rds.amazonaws.com --port=5432 --username=postgres --Present100% --dbname=imibonano_db",
