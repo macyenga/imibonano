@@ -95,7 +95,7 @@ export const sendResetPasswordLink = (user: User, newResetRequset: PasswordReset
 		'Password reset link for Imibonano-account',
 		`<h1>Hi, forgot your password? No problem! !</h1>
 			<p>Visit the link below to reset your password:</p>
-			<a href='https://imibonano-client.onrender.com/forgot_password?reset=${newResetRequset.token}'>Reset password here</a>
+			<a href='https://macyenga.github.io/imibonano/forgot_password?reset=${newResetRequset.token}'>Reset password here</a>
 			<p>Link will be active until ${newResetRequset.expiresAt}.</p>
 			<p>Ignore this message if you haven't requested password reset.</p>
 
