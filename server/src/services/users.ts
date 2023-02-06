@@ -42,31 +42,17 @@ export const createNewUser = async (newUser: NewUser, ipAddress: string | undefi
 	return addNewUser({ ...newUser, passwordHash, activationCode, lat: coordinates.lat, lon: coordinates.lon });
 };
 
-//activate
+///activate
 export const sendActivationCode = (user: User): void => {
-	const emailContent = `
-		Dear ${user.username},
-		
-		Thank you for signing up for Imibonano! We are excited to have you join our community.
-
-		Please click on the following link to activate your account: 
-		https://imibonano-client.onrender.com/login?activate=${user.activationCode}
-
-		If the link above does not work, please copy and paste the entire link into your browser's address bar.
-
-		Once your account is activated, you can log in and start using all of the features Imibonano has to offer.
-
-		If you have any questions or issues activating your account, please don't hesitate to reach out to us at support@imibonano.com
-
-		Thank you and we look forward to seeing you on Imibonano!
-
-		Sincerely,
-		The Imibonano team
-	`;
-
-	sendMail(user.email, 'Activation code for Imibonano-account', emailContent);
+	sendMail(
+		user.email,
+		'Activation code for imibonano-account',
+		`<h1>Hi and thanks for signing up!</h1>
+			<p>Please visit the link to activate your account here:</p>
+			<a href='https://matcha-client.onrender.com/login?activate=${user.activationCode}'>Link</a>
+			<p> See you at imibonano! <3 </p>`
+	);
 };
-
 export const activateAccount = async (activationCode: string): Promise<void> => {
 	const user = await findUserByActivationCode(activationCode);
 	if (!user) {
