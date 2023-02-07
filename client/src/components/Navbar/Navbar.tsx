@@ -1,6 +1,6 @@
 import { Button, AppBar, Toolbar, Box } from '@mui/material';
 import { useStateValue } from '../../state';
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AlertContext } from '../AlertProvider';
 import { logoutUser } from '../../services/logout';
@@ -10,54 +10,27 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import NotificationsButton from './Notifications';
 import ChatButton from './Messages';
+import MeetingRoomIcon from '@mui/icons-material/MeetingRoom';
 
-
-
-
-const buttonStyles = {
-	background: 'linear-gradient(45deg, #0000FF 30%, #7FFFD4 90%)',
-	borderRadius: '20px',
-	border: 'none',
-	color: 'white',
-	height: '30px',
-	padding: ' 20px',
-	boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-};
-
-const loginButtonStyles = {
-	backgroundColor: 'purple',
-	color: 'white',
-	'&:hover': {
-		backgroundColor: 'darkpurple',
-	},
-};
-
-const signupButtonStyles = {
-	backgroundColor: 'green',
-	color: 'white',
-	'&:hover': {
-		backgroundColor: 'darkgreen',
-	},
-};
 const LoggedInUserButtons = ({ handleLogout }: { handleLogout: any }) => {
 	return (
-		<div>
+		<Box sx={{ pr: 0 }}>
 			<ChatButton />
 			<NotificationsButton />
-			<button style={buttonStyles} onClick={handleLogout}>
-				Logout
-			</button>
-		</div>
+			<IconButton onClick={handleLogout}>
+				<MeetingRoomIcon color="primary" />
+			</IconButton>
+		</Box>
 	);
 };
 
 const LoggedOutButtons = () => {
 	return (
 		<>
-			<Button style={{ ...buttonStyles, ...loginButtonStyles }} component={Link} to="/login">
+			<Button color="inherit" component={Link} to="/login">
 				Login
 			</Button>
-			<Button style={{ ...buttonStyles, ...signupButtonStyles }} component={Link} to="/signup">
+			<Button color="inherit" component={Link} to="/signup">
 				Sign Up
 			</Button>
 		</>
@@ -66,39 +39,36 @@ const LoggedOutButtons = () => {
 
 const drawerWidth = 200;
 
-const Navbar = ({ setMobileOpen, mobileOpen }) => {
-	// Add a new state variable to track the current mode
-	const [lightMode, setLightMode] = useState(true);
-  
-	// Add a function to toggle the mode
-	const toggleMode = () => {
-	  setLightMode(!lightMode);
-	};
-  
+const Navbar = ({
+	setMobileOpen,
+	mobileOpen
+}: {
+	setMobileOpen: React.Dispatch<React.SetStateAction<boolean>>;
+	mobileOpen: boolean;
+}) => {
 	const [, dispatch] = useStateValue();
-	  const [{ loggedUser }] = useStateValue();
-	  const navigate = useNavigate();
-	  const alert = useContext(AlertContext);
-  
-	  const handleDrawerToggle = () => {
-		  setMobileOpen(!mobileOpen);
-	  };
-  
-	  const handleLogout = async (event: any) => {
-		  event.preventDefault();
-		  logoutUser(dispatch);
-		  if (socket.connected) {
-			  socket.disconnect();
-		  }
-		  alert.success('Logged out');
-		  navigate('/');
-	  };
-  
+	const [{ loggedUser }] = useStateValue();
+	const navigate = useNavigate();
+	const alert = useContext(AlertContext);
+
+	const handleDrawerToggle = () => {
+		setMobileOpen(!mobileOpen);
+	};
+
+	const handleLogout = async (event: any) => {
+		event.preventDefault();
+		logoutUser(dispatch);
+		if (socket.connected) {
+			socket.disconnect();
+		}
+		alert.success('Logged out');
+		navigate('/');
+	};
 
 	return (
 		<AppBar
 			position="fixed"
-			color={lightMode ? "secondary" : "primary"}
+			color="secondary"
 			sx={{
 				ml: { sm: `${drawerWidth}px` },
 				mb: 5,
@@ -113,11 +83,11 @@ const Navbar = ({ setMobileOpen, mobileOpen }) => {
 			<Toolbar
 				sx={{
 					justifyContent: 'space-between',
-					alignItems: 'center',
-					width: '100%',
+					'& .MuiPaper-root': {
+						borderRadius: '0!important'
+					}
 				}}
 			>
-				
 				<IconButton
 					color="inherit"
 					aria-label="open drawer"
@@ -141,7 +111,7 @@ const Navbar = ({ setMobileOpen, mobileOpen }) => {
 						style={{
 							fontFamily: "'Paytone One', cursive",
 							fontSize: '1.6rem',
-							color: '#F44336',
+							color: '#ffc600',
 							textAlign: 'center'
 						}}
 					>

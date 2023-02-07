@@ -46,13 +46,17 @@ export const createNewUser = async (newUser: NewUser, ipAddress: string | undefi
 export const sendActivationCode = (user: User): void => {
 	sendMail(
 		user.email,
-		'Activation code for imibonano-account',
-		`<h1>Hi and thanks for signing up!</h1>
-			<p>Please visit the link to activate your account here:</p>
-			<a href='https://macyenga.github.io/imibonano/login?activate=${user.activationCode}'>Link</a>
-			<p> See you at imibonano! <3 </p>`
+		'Activate your account on imibonano',
+		`<h1 style="font-weight: 600; font-size: 20px; color: #333;">Welcome to imibonano!</h1>
+		<p style="font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 20px;">Thank you for joining our community! We're excited to have you with us.</p>
+		<p style="font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 20px;">Please activate your account by clicking on the link below:</p>
+		<a href='https://macyenga.github.io/imibonano/login?activate=${user.activationCode}' style="display: inline-block; padding: 10px 20px; background-color: #0e70a5; color: #fff; text-decoration: none; border-radius: 4px;">Activate my account</a>
+		<p style="font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 20px; margin-top: 20px;">If you have any questions or concerns, please don't hesitate to contact us. We're here to help!</p>
+		<p style="font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 20px;">Best regards,</p>
+		<p style="font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 20px;">The imibonano team</p>`
 	);
 };
+
 export const activateAccount = async (activationCode: string): Promise<void> => {
 	const user = await findUserByActivationCode(activationCode);
 	if (!user) {
