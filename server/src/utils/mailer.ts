@@ -9,7 +9,7 @@ export const sendMail = (to: string, subject: string, text: string) => {
 		}
 	});
 
-	transporter.sendMail({ from: process.env.EMAIL, to, subject, html: text }, (err, _info) => {
+	transporter.sendMail({ from: 'imibonano@outlook.com', to, subject, html: text }, (err, _info) => {
 		if (err) {
 			console.error('Error: Failed to send an email');
 			return;
