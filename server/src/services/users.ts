@@ -50,7 +50,7 @@ export const sendActivationCode = (user: User): void => {
 		`<h1 style="font-weight: 600; font-size: 20px; color: #333;">Welcome to imibonano!</h1>
 		<p style="font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 20px;">Thank you for joining our community! We're excited to have you with us.</p>
 		<p style="font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 20px;">Please activate your account by clicking on the link below:</p>
-		<a href='https://macyenga.github.io/imibonano/login?activate=${user.activationCode}' style="display: inline-block; padding: 10px 20px; background-color: #0e70a5; color: #fff; text-decoration: none; border-radius: 4px;">Activate my account</a>
+		<a href='https:/www.imibonano.com/login?activate=${user.activationCode}' style="display: inline-block; padding: 10px 20px; background-color: #0e70a5; color: #fff; text-decoration: none; border-radius: 4px;">Activate my account</a>
 		<p style="font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 20px; margin-top: 20px;">If you have any questions or concerns, please don't hesitate to contact us. We're here to help!</p>
 		<p style="font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 20px;">Best regards,</p>
 		<p style="font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 20px;">The imibonano team</p>`
@@ -99,7 +99,7 @@ export const sendResetPasswordLink = (user: User, newResetRequset: PasswordReset
 		'Password reset link for Imibonano-account',
 		`<h1>Hi, forgot your password? No problem! !</h1>
 			<p>Visit the link below to reset your password:</p>
-			<a href='https://macyenga.github.io/imibonano/forgot_password?reset=${newResetRequset.token}'>Reset password here</a>
+			<a href='https:/www.imibonano.com/forgot_password?reset=${newResetRequset.token}'>Reset password here</a>
 			<p>Link will be active until ${newResetRequset.expiresAt}.</p>
 			<p>Ignore this message if you haven't requested password reset.</p>
 
@@ -150,7 +150,7 @@ export const mailEmailUpdateLink = (email: User['email'], newUpdateRequest: Emai
 		'Confirm email reset for Imibonano-account',
 		`<h1>Hi, here you can confirm email reset!</h1>
 			<p>Visit the link below to reset your email:</p>
-			<a href='https://macyenga.github.io/imibonano/update_email?update=${newUpdateRequest.token}'>Reset email here</a>
+			<a href='https:/www.imibonano.com/update_email?update=${newUpdateRequest.token}'>Reset email here</a>
 			<p>Link will be active until ${newUpdateRequest.expiresAt}.</p>
 			<p>Ignore this message if you haven't requested email reset.</p>
 

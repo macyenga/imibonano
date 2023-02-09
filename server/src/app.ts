@@ -20,7 +20,7 @@ export const app = express();
 export const httpServer = createServer(app);
 export const io = new Server<ClientToServerEvents, ServerToClientEvents>(httpServer, {
 	cors: {
-		origin: 'https://macyenga.github.io/imibonano/',
+		origin: 'https:/www.imibonano.com',
 		methods: ['GET', 'POST']
 	}
 });
