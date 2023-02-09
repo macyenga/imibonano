@@ -1,6 +1,13 @@
 import styled from '@emotion/styled';
 
+
+import React, { FC, ReactElement } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+
 import Landing from './components/LandingPage/LandingPage';
+import Pages from './components/pages/index';
+
 import MatchSuggestions from './components/MatchSuggestions';
 import SignUpForm from './components/SignUpForm';
 import LoginForm from './components/LoginForm';
@@ -55,7 +62,7 @@ function ErrorFallback({
 }: {
 	error: any;
 	resetErrorBoundary: any;
-}) {
+}): JSX.Element {
 	return (
 		<div role="alert">
 			<p>Something went wrong:</p>
@@ -65,7 +72,8 @@ function ErrorFallback({
 	);
 }
 
-const App = () => {
+const App: FC<any> = (): ReactElement => {
+
 	const [{ loggedUser }] = useContext(StateContext);
 
 	useEffect(() => {
@@ -98,9 +106,12 @@ const App = () => {
 							<StyledBox>
 								<AlertSnackBar />
 								<Routes>
+
+
 									<Route
 										path="/"
 										element={
+
 											loggedUser ? <MatchSuggestions /> : <Landing />
 										}
 									/>

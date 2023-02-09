@@ -45,7 +45,10 @@
 		"socket.io-client": "^4.5.4",
 		"styled-components": "^5.3.6",
 		"typescript": "^4.8.4",
-		"web-vitals": "^2.1.4"
+		"web-vitals": "^2.1.4",
+		"bootstrap": "^4.5.3",
+		"@types/react-router-dom": "^5.1.6",
+		"react-router-dom": "^5.2.0"
 	},
 	"devDependencies": {
 		"@types/axios": "^0.14.0",

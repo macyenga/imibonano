@@ -4,8 +4,8 @@ export const sendMail = (to: string, subject: string, text: string) => {
 	const transporter = nodemailer.createTransport({
 		service: 'hotmail',
 		auth: {
-			user: process.env.EMAIL,
-			pass: process.env.PASSWORD
+			user: 'imibonano@outlook.com',
+			pass: 'dmgzqomdsoikozfu'
 		}
 	});
 
