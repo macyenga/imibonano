@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 
 import Landing from './components/LandingPage/LandingPage';
-import Pages from './components/pages/index';
+//import Pages from './components/pages/index';
 
 import MatchSuggestions from './components/MatchSuggestions';
 import SignUpForm from './components/SignUpForm';
