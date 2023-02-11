@@ -29,7 +29,7 @@ run all setted up containers in background:
 	&emsp; `docker-compose up -d`  
   
 connect to postgres:  
-	&emsp; `psql postgresql://imibonano-1.cvusofg0vjpu.us-east-1.rds.amazonaws.com:5432/imibonano_db -U postgres`  
+	&emsp; `psql postgresql://localhost:5432/imibonano -U postgres`  
   
 show all containers to get an ID:  
 	&emsp; `docker ps`  

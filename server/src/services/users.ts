@@ -42,7 +42,7 @@ export const createNewUser = async (newUser: NewUser, ipAddress: string | undefi
 	return addNewUser({ ...newUser, passwordHash, activationCode, lat: coordinates.lat, lon: coordinates.lon });
 };
 
-///activate
+//activate
 export const sendActivationCode = (user: User): void => {
 	sendMail(
 		user.email,
@@ -94,8 +94,7 @@ export const sendResetLink = async (email: string): Promise<void> => {
 };
 
 export const sendResetPasswordLink = (user: User, newResetRequset: PasswordResetRequest): void => {
-	sendMail(
-		user.email,
+	sendMail(	user.email,
 		'Password reset link for Imibonano-account',
 		`<h1>Hi, forgot your password? No problem! !</h1>
 			<p>Visit the link below to reset your password:</p>

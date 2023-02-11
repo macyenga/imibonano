@@ -12,7 +12,7 @@ type SingleLocation = {
 };
 
 export const requestCoordinatesByIp = async (ipAddress: string | undefined): Promise<Coordinates> => {
-	const defaultCoordinates: Coordinates = { lat: 2.0800, lon: 29.7500 }; //Hki city center as we are hki startup hehe
+	const defaultCoordinates: Coordinates = { lat: 60.16678195339881, lon: 24.941711425781254 }; //Hki city center as we are hki startup hehe
 	if (!ipAddress) return defaultCoordinates;
 
 	try {

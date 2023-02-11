@@ -1,12 +1,13 @@
 import { Pool } from 'pg';
-
+import { DB_PORT, DB_NAME } from './utils/config';
 
 const pool = new Pool({
-	user: 'postgres',
-	host: 'imibonano-1.cvusofg0vjpu.us-east-1.rds.amazonaws.com',
-	database: 'imibonano_db',
-	password: 'Present100%',
-	port: 5432
+	user: process.env.DB_USER,
+	host: process.env.DB_HOST,
+	database: DB_NAME,
+	password: process.env.DB_PASSWORD,
+	port: DB_PORT,
+	ssl: true
 });
 
 export default pool;

@@ -115,7 +115,7 @@ const Navbar = ({
 							textAlign: 'center'
 						}}
 					>
-						Imibonano
+						Match
 					</div>
 					<BrightnessAutoIcon style={{ marginTop: '4px' }} color="primary" />
 				</Box>
