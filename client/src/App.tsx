@@ -1,13 +1,6 @@
 import styled from '@emotion/styled';
 
-
-import React, { FC, ReactElement } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-
-
 import Landing from './components/LandingPage/LandingPage';
-//import Pages from './components/pages/index';
-
 import MatchSuggestions from './components/MatchSuggestions';
 import SignUpForm from './components/SignUpForm';
 import LoginForm from './components/LoginForm';
@@ -35,11 +28,6 @@ import { Box } from '@mui/material';
 import { socket } from './services/socket';
 import { StateContext } from './state';
 
-
-import ReactGA from 'react-ga';
-const TRACKING_ID = "UA-213519010-1"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
-
 const MinWidthContainer = styled.div`
 	display: flex;
 	max-width: 100%;
@@ -62,7 +50,7 @@ function ErrorFallback({
 }: {
 	error: any;
 	resetErrorBoundary: any;
-}): JSX.Element {
+}) {
 	return (
 		<div role="alert">
 			<p>Something went wrong:</p>
@@ -72,8 +60,7 @@ function ErrorFallback({
 	);
 }
 
-const App: FC<any> = (): ReactElement => {
-
+const App = () => {
 	const [{ loggedUser }] = useContext(StateContext);
 
 	useEffect(() => {
@@ -83,11 +70,6 @@ const App: FC<any> = (): ReactElement => {
 				user_id: loggedUser.id
 			};
 			if (!socket.connected) socket.connect();
-		}
-		// Google Analytics code
-		if (typeof window !== "undefined") {
-			ReactGA.initialize("GA_MEASUREMENT_ID");
-			ReactGA.pageview(window.location.pathname + window.location.search);
 		}
 	}, [loggedUser]);
 
@@ -106,12 +88,9 @@ const App: FC<any> = (): ReactElement => {
 							<StyledBox>
 								<AlertSnackBar />
 								<Routes>
-
-
 									<Route
 										path="/"
 										element={
-
 											loggedUser ? <MatchSuggestions /> : <Landing />
 										}
 									/>

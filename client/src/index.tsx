@@ -7,10 +7,6 @@ import theme from './theme';
 import { CssBaseline } from '@mui/material';
 import { reducer, StateProvider } from './state';
 
-import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'index.css';
-
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement!);
 
