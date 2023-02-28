@@ -3,8 +3,8 @@
 // const DB_NAME: string = process.env.NODE_ENV === 'test' ? 'imibonano-test' : 'imibonano';
 
 
-const DB_PORT = Number(process.env.DB_PORT);
+const DB_PORT = Number(5432);
 
-const DB_NAME = String(process.env.DB_NAME);
+const DB_NAME = String('imibonano_db');
 
 export { DB_NAME, DB_PORT };
