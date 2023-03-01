@@ -1,5 +1,3 @@
-import express from 'express';
-import path from 'path';
 import { httpServer } from './app';
 
 const PORT = process.env.PORT || 3001;
