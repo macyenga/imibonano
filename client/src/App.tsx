@@ -18,6 +18,7 @@ import Likes from './components/Likes';
 import ChatWindow from './components/ChatWindow/ChatWindow';
 import Chats from './components/Chats';
 import Footer from './components/Footer';
+import Unknown from './components/Unknown/Unknown';
 import { ChatReloadProvider } from './components/ChatWindow/ChatReloadProvider';
 
 import { ErrorBoundary } from 'react-error-boundary';
@@ -27,21 +28,25 @@ import { SnackbarProvider } from 'notistack';
 import { Box } from '@mui/material';
 import { socket } from './services/socket';
 import { StateContext } from './state';
+import './tailwind.css';
+import React from 'react';
 
 const MinWidthContainer = styled.div`
-	display: flex;
-	max-width: 100%;
-	min-width: 300px;
-	height: 100%;
+  display: flex;
+  max-width: 100%;
+  min-width: 300px;
+  height: 100%;
+  bg-red-500 // example Tailwind class
 `;
 
 const StyledBox = styled(Box)`
-	text-align: center;
-	flex-grow: 1;
-	position: relative;
-	top: 5rem;
-	max-width: 100%;
-	min-width: 320px;
+  text-align: center;
+  flex-grow: 1;
+  position: relative;
+  top: 5rem;
+  max-width: 100%;
+  min-width: 320px;
+  bg-blue-500 // example Tailwind class
 `;
 
 function ErrorFallback({
@@ -60,7 +65,7 @@ function ErrorFallback({
 	);
 }
 
-const App = () => {
+const App: React.FC = () => {
 	const [{ loggedUser }] = useContext(StateContext);
 
 	useEffect(() => {
@@ -128,7 +133,7 @@ const App = () => {
 									<Route path="/blocks" element={<Blocks />} />
 									<Route path="/chats" element={<Chats />} />
 									<Route path="/chats/:id" element={<ChatWindow />} />
-									<Route path="*" element={<Navigate to="/" replace />} />
+									<Route path='*' element={<Unknown />} />
 								</Routes>
 								<Footer />
 							</StyledBox>

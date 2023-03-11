@@ -7,6 +7,8 @@ import theme from './theme';
 import { CssBaseline } from '@mui/material';
 import { reducer, StateProvider } from './state';
 import { ErrorBoundary } from 'react-error-boundary';
+import './tailwind.css';
+
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement!);
