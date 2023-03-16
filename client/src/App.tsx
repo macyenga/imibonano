@@ -28,7 +28,6 @@ import { SnackbarProvider } from 'notistack';
 import { Box } from '@mui/material';
 import { socket } from './services/socket';
 import { StateContext } from './state';
-import './tailwind.css';
 import React from 'react';
 
 const MinWidthContainer = styled.div`
