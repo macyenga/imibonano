@@ -22,14 +22,13 @@ import Unknown from './components/Unknown/Unknown';
 import { ChatReloadProvider } from './components/ChatWindow/ChatReloadProvider';
 
 import { ErrorBoundary } from 'react-error-boundary';
-import {  useRoutes, Navigate,BrowserRouter   } from 'react-router-dom';
+import {  useRoutes, Navigate } from 'react-router-dom';
 import { useContext, useEffect } from 'react';
 import { SnackbarProvider } from 'notistack';
 import { Box } from '@mui/material';
 import { socket } from './services/socket';
 import { StateContext } from './state';
 import React from 'react';
-
 
 const MinWidthContainer = styled.div`
   display: flex;
@@ -52,129 +51,127 @@ const StyledBox = styled(Box)`
 function ErrorFallback({
 	error,
 	resetErrorBoundary
-  }: {
+}: {
 	error: any;
 	resetErrorBoundary: any;
-  }) {
+}) {
 	return (
-	  <div role="alert">
-		<p>Something went wrong:</p>
-		<pre>{error.message}</pre>
-		<button onClick={resetErrorBoundary}>Try again</button>
-	  </div>
+		<div role="alert">
+			<p>Something went wrong:</p>
+			<pre>{error.message}</pre>
+			<button onClick={resetErrorBoundary}>Try again</button>
+		</div>
 	);
-  }
+}
 
 
-  const App: React.FC = () => {
+const App: React.FC = () => {
 	const [{ loggedUser }] = useContext(StateContext);
-  
+
 	useEffect(() => {
-	  if (loggedUser) {
-		socket.auth = {
-		  sessionId: loggedUser.token,
-		  user_id: loggedUser.id,
-		};
-		if (!socket.connected) socket.connect();
-	  }
+		if (loggedUser) {
+			socket.auth = {
+				sessionId: loggedUser.token,
+				user_id: loggedUser.id,
+			};
+			if (!socket.connected) socket.connect();
+		}
 	}, [loggedUser]);
-  
+
 	const routes = useRoutes([
-	  {
-		path: '/',
-		element: loggedUser ? <MatchSuggestions /> : <Landing />,
-	  },
-	  {
-		path: '/login',
-		element: !loggedUser ? <LoginForm /> : <Navigate to="/" />,
-	  },
-	  {
-		path: '/signup',
-		element: !loggedUser ? <SignUpForm /> : <Navigate to="/" />,
-	  },
-	  {
-		path: '/forgot_password',
-		element: !loggedUser ? <ForgotPassword /> : <Navigate to="/" />,
-	  },
-	  {
-		path: '/profile',
-		element: <ProfileEditor />,
-	  },
-	  {
-		path: '/profile/:id',
-		element: <PublicProfilePage />,
-	  },
-	  {
-		path: '/update_email',
-		element: <UpdateEmail />,
-	  },
-	  {
-		path: '/visit_history',
-		element: <VisitHistory />,
-	  },
-	  {
-		path: '/likes',
-		element: <Likes />,
-	  },
-	  {
-		path: '/matches',
-		element: <Matches />,
-	  },
-	  {
-		path: '/blocks',
-		element: <Blocks />,
-	  },
-	  {
-		path: '/chats',
-		element: <Chats />,
-	  },
-	  {
-		path: '/chats/:id',
-		element: <ChatWindow />,
-	  },
-	  {
-		path: '*',
-		element: <Unknown />,
-	  },
-	  {
-		path: '/old/path',
-		element: <Navigate to="/new/path" replace />,
-	  },
-	  {
-		path: '/old/*',
-		element: <Navigate to="/new/:param" replace />,
-	  },
-	  {
-		path: '/old/:param',
-		element: <Navigate to="/new/:param" replace />,
-	  },
+		{
+			path: "/",
+			element: loggedUser ? <MatchSuggestions /> : <Landing />,
+		},
+		{
+			path: "/login",
+			element: !loggedUser ? <LoginForm /> : <Navigate to="/" />,
+		},
+		{
+			path: "/signup",
+			element: !loggedUser ? <SignUpForm /> : <Navigate to="/" />,
+		},
+		{
+			path: "/forgot_password",
+			element: !loggedUser ? <ForgotPassword /> : <Navigate to="/" />,
+		},
+		{
+			path: "/profile",
+			element: <ProfileEditor />,
+		},
+		{
+			path: "/profile/:id",
+			element: <PublicProfilePage />,
+		},
+		{
+			path: "/update_email",
+			element: <UpdateEmail />,
+		},
+		{
+			path: "/visit_history",
+			element: <VisitHistory />,
+		},
+		{
+			path: "/likes",
+			element: <Likes />,
+		},
+		{
+			path: "/matches",
+			element: <Matches />,
+		},
+		{
+			path: "/blocks",
+			element: <Blocks />,
+		},
+		{
+			path: "/chats",
+			element: <Chats />,
+		},
+		{
+			path: "/chats/:id",
+			element: <ChatWindow />,
+		},
+		{
+			path: "*",
+			element: <Unknown />,
+		},
+		{
+			path: "/old/path",
+			element: <Navigate to="/new/path" replace />,
+		},
+		{
+			path: "/old/*",
+			element: <Navigate to="/new/:param" replace />,
+		},
+		{
+			path: "/old/:param",
+			element: <Navigate to="/new/:param" replace />,
+		},
 	]);
-  
+
 	return (
-	  <BrowserRouter>
-		<MinWidthContainer>
-		  <SnackbarProvider>
-			<AlertProvider>
-			  <ChatReloadProvider>
-				<ResponsiveDrawer />
-				<StyledBox>
-				  <ErrorBoundary
-					FallbackComponent={ErrorFallback}
-					onReset={() => {
-					  return <Navigate to="/" />;
-					}}
-				  >
-					<AlertSnackBar />
-					{routes}
-					<Footer />
-				  </ErrorBoundary>
-				</StyledBox>
-			  </ChatReloadProvider>
-			</AlertProvider>
-		  </SnackbarProvider>
-		</MinWidthContainer>
-	  </BrowserRouter>
+		<ErrorBoundary
+			FallbackComponent={ErrorFallback}
+			onReset={() => {
+				return <Navigate to="/" />;
+			}}
+		>
+			<MinWidthContainer>
+				<SnackbarProvider>
+					<AlertProvider>
+						<ChatReloadProvider>
+							<ResponsiveDrawer />
+							<StyledBox>
+								<AlertSnackBar />
+								{routes}
+								<Footer />
+							</StyledBox>
+						</ChatReloadProvider>
+					</AlertProvider>
+				</SnackbarProvider>
+			</MinWidthContainer>
+		</ErrorBoundary>
 	);
-  };
-  
-  export default App;
+};
+
+export default App;
