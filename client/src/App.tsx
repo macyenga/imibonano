@@ -22,7 +22,7 @@ import Unknown from './components/Unknown/Unknown';
 import { ChatReloadProvider } from './components/ChatWindow/ChatReloadProvider';
 
 import { ErrorBoundary } from 'react-error-boundary';
-import { Routes, Route, useRoutes, Navigate } from 'react-router-dom';
+import {  useRoutes, Navigate } from 'react-router-dom';
 import { useContext, useEffect } from 'react';
 import { SnackbarProvider } from 'notistack';
 import { Box } from '@mui/material';
