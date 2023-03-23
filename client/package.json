@@ -56,7 +56,7 @@
 		"typescript": "^4.9.5"
 	},
 	"scripts": {
-		"start": "serve -s build -p 3000 _redirects",
+		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"predeploy": "npm run build",
