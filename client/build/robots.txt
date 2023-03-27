@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:/private/
+Sitemap: https://www.imibonano.com/sitemap.xml
+
+
+
+
+
